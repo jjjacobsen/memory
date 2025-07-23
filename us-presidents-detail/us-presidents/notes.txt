@@ -1,99 +1,358 @@
-George Washington|led the Continental Army to victory in the Revolutionary War|
-George Washington|set the two-term precedent|
-George Washington|served as president of the Constitutional Convention|(1787)|
-George Washington|established the First Bank of the U.S. following counsel by Alexander Hamilton|The bank was chartered for a term of 20 years starting in 1791. At the expiration of the charter, Stephen Girard bought the bank|
-John Adams|was a revolutionary diplomat who helped negotiate the Treaty of Paris|(1783)|
-John Adams|signed the Alien & Sedition Acts|(1798) The acts hurt his popularity and contributed to the Federalists losing power in the election of 1800|
-John Adams|avoided full-scale war with France during Quasi-War|
-John Adams|was a political rival of Thomas Jefferson|
-John Adams|built a blue-water Navy|
-John Adams|was the first to reside in the White House|
-Thomas Jefferson|was the primary author of the Declaration of Independence|
-Thomas Jefferson|completed the Louisiana Purchase|(1803) Doubled U.S. territory|
-Thomas Jefferson|commissioned the Lewis & Clark expedition|(1804 - 1806)|
-Thomas Jefferson|founded the University of Virginia after his presidency|
+George Washington|led the Continental Army to victory in the Revolutionary War|Commander-in-Chief from 1775-1783, defeating the British Empire
+George Washington|served as president of the Constitutional Convention|(1787)
+George Washington|established the First Bank of the U.S. following counsel by Alexander Hamilton|The bank was chartered for a term of 20 years starting in 1791. At the expiration of the charter, Stephen Girard bought the bank
+George Washington|issued the Neutrality Proclamation|(1793) Kept U.S. out of European wars
+George Washington|suppressed the Whiskey Rebellion|(1794) Established federal authority
+George Washington|warned against political parties in his farewell address|Called them "potent engines" of despotism
+George Washington|was unanimously elected by the Electoral College|Only president to receive all electoral votes (twice)
+George Washington|refused a third term|Established two-term precedent until FDR
+John Adams|was a revolutionary diplomat who helped negotiate the Treaty of Paris|(1783) Ended the Revolutionary War and recognized U.S. independence
+John Adams|signed the Alien & Sedition Acts|(1798) The acts hurt his popularity and contributed to the Federalists losing power in the election of 1800
+John Adams|avoided full-scale war with France during Quasi-War|Undeclared naval conflict from 1798-1800
+John Adams|built a blue-water Navy|Created the Department of the Navy in 1798
+John Adams|was the first to reside in the White House|Moved in November 1800 while it was still under construction
+John Adams|appointed John Marshall as Chief Justice|(1801) Most important judicial appointment in history
+John Adams|was defeated by his former friend turned rival Thomas Jefferson|(1800)
+Thomas Jefferson|was the primary author of the Declaration of Independence|Written in 1776 at age 33
+Thomas Jefferson|completed the Louisiana Purchase|(1803) Doubled U.S. territory
+Thomas Jefferson|commissioned the Lewis & Clark expedition|(1804 - 1806)
+Thomas Jefferson|founded the University of Virginia after his presidency|Founded in 1819, considered his greatest achievement
+Thomas Jefferson|created the Library of Congress|Sold his personal library to restart it after British burned it
+Thomas Jefferson|invented the swivel chair|Among many other inventions
+Thomas Jefferson|never publicly acknowledged his children with Sally Hemings|DNA evidence confirmed in 1998
+Thomas Jefferson|died bankrupt|Monticello was sold to pay debts
 Thomas Jefferson|with political ally James Madison organized the Democratic-Republican Party to oppose the Federalist Party|
-Thomas Jefferson|implemented the Embargo Act|(1807) Attempted to persuade Britain to cease impressment of American sailors by banning all trading with foreign ports|
-James Madison|is known as the "Father of the Constitution"|
-James Madison|led the U.S. through the War of 1812|
-James Madison|co-authored the Federalist Papers|Other authors are Alexander Hamilton and John Jay|
-James Madison|opposed the First Bank of the U.S. but then chartered the Second Bank of the U.S.|The War of 1812 proved a central bank necessary. Second bank chartered in 1816 for 20 years|
-James Madison|suggested and signed the Tariff of 1816|The first protectionist U.S. tariff|
-James Madison|signed the Treaty of Ghent|(1814) Ended the War of 1812|
-James Monroe|is associated with the "Era of Good Feelings"|A time of little partisanship and post-war unity|
-James Monroe|signed the Missouri Compromise|(1820) Balanced desires of northern and southern states around slavery. Missouri was admitted as a slave state and Maine as a free state|
-James Monroe|signed the Adams-Onís Treaty|(1819) Treaty between the U.S. and Spain. Ceded Florida and defined the boundary between the U.S. and Mexico (New Spain)|
-James Monroe|established doctrine opposing European colonialism in the Western Hemisphere|(1823) Any intervention in the political affairs of the Americas by foreign powers is a potentially hostile act against the U.S. Called the "Monroe Doctrine"|
-John Quincy Adams|is considered one of the greatest diplomats and secretaries of state (under James Monroe) in American history|Negotiated the Adams-Onís Treaty and the Treaty of Ghent. Helped formulate Monroe Doctrine|
-John Quincy Adams|is the only former president to be elected to the House of Representatives|From 1831 until death in 1848|
-Andrew Jackson|became a national hero at the Battle of New Orleans|(1815)|
-Andrew Jackson|championed "common man" democracy|More famously called "Jacksonian democracy"|
-Andrew Jackson|resolved the nullification crisis|South Carolina adopted the Ordinance of Nullification, declaring the tariffs of 1828 and 1832 unconstitutional. After negotiations, the compromise tariff of 1833 resolved the dispute|
-Andrew Jackson|signed the Indian Removal Act|(1830) Removed all Indians east of the Mississippi river to the West (mostly Oklahoma)|
-Andrew Jackson|vetoed a bill to reauthorize the Second Bank of the U.S.|(1832)|
-Andrew Jackson|is the only president to pay off the national debt|
-Andrew Jackson|survived an assassination attempt because the assailant's pistols both misfired|(1835)|
+Thomas Jefferson|implemented the Embargo Act|(1807) Attempted to persuade Britain to cease impressment of American sailors by banning all trading with foreign ports
+James Madison|is known as the "Father of the Constitution"|Primary architect at the Constitutional Convention of 1787
+James Madison|led the U.S. through the War of 1812|Sometimes called "Mr. Madison's War" or the "Second War of Independence"
+James Madison|co-authored the Federalist Papers|Other authors are Alexander Hamilton and John Jay
+James Madison|opposed the First Bank of the U.S. but then chartered the Second Bank of the U.S.|The War of 1812 proved a central bank necessary. Second bank chartered in 1816 for 20 years
+James Madison|was the shortest president|5 feet 4 inches tall
+James Madison|was the last Founding Father to serve as president|
+James Madison|his notes are the best record of the Constitutional Convention|Kept secret until after his death
+James Madison|suggested and signed the Tariff of 1816|The first protectionist U.S. tariff
+James Madison|signed the Treaty of Ghent|(1814) Ended the War of 1812
+James Monroe|is associated with the "Era of Good Feelings"|A time of little partisanship and post-war unity (1815-1825)
+James Monroe|signed the Missouri Compromise|(1820) Balanced desires of northern and southern states around slavery. Missouri was admitted as a slave state and Maine as a free state
+James Monroe|signed the Adams-Onís Treaty|(1819) Treaty between the U.S. and Spain. Ceded Florida and defined the boundary between the U.S. and Mexico (New Spain)
+James Monroe|ran virtually unopposed for re-election|(1820) One elector voted against him to preserve Washington's unanimous record
+James Monroe|was the last president to wear knee breeches|Fashion changed with John Quincy Adams
+James Monroe|established doctrine opposing European colonialism in the Western Hemisphere|(1823) Any intervention in the political affairs of the Americas by foreign powers is a potentially hostile act against the U.S. Called the "Monroe Doctrine"
+John Quincy Adams|is considered one of the greatest diplomats and secretaries of state (under James Monroe) in American history|Negotiated the Adams-Onís Treaty and the Treaty of Ghent. Helped formulate Monroe Doctrine
+John Quincy Adams|is the only former president to be elected to the House of Representatives|From 1831 until death in 1848
+John Quincy Adams|had the first pool table in the White House|Accused of gambling with public funds
+John Quincy Adams|regularly swam nude in the Potomac River|Reporter Anne Royall sat on his clothes for an interview
+John Quincy Adams|argued the Amistad case before the Supreme Court|(1841) Freed the African captives
+Andrew Jackson|became a national hero at the Battle of New Orleans|(1815) Decisive victory came after the peace treaty was signed but before news reached the combatants
+Andrew Jackson|championed "common man" democracy|More famously called "Jacksonian democracy"
+Andrew Jackson|resolved the nullification crisis|South Carolina adopted the Ordinance of Nullification, declaring the tariffs of 1828 and 1832 unconstitutional. After negotiations, the compromise tariff of 1833 resolved the dispute
+Andrew Jackson|signed the Indian Removal Act|(1830) Removed all Indians east of the Mississippi river to the West (mostly Oklahoma)
+Andrew Jackson|vetoed a bill to reauthorize the Second Bank of the U.S.|(1832)
+Andrew Jackson|is the only president to pay off the national debt|Achieved in 1835, lasted only one year
+Andrew Jackson|survived an assassination attempt because the assailant's pistols both misfired|(1835)
+Andrew Jackson|had a bullet lodged near his heart for 40 years|From 1806 duel with Charles Dickinson
+Andrew Jackson|adopted two Native American boys|Despite his harsh Indian policies
+Andrew Jackson|his inauguration party trashed the White House|20,000 uninvited guests, had to escape through window
 Andrew Jackson|co-founded the Democratic Party with Martin Van Buren|
 Martin Van Buren|co-founded the Democratic Party with Andrew Jackson|
-Martin Van Buren|is the only president to have spoken English as a second language|
-Martin Van Buren|resolved the Petticoat affair by resigning as Secretary of State|One of Andrew Jackson's cabinet members married a woman, "Peggy", who was still in mourning. This caused lots of drama, other wives rejected her, and by resigning Jackson could reorganize his cabinet|
-Martin Van Buren|faced the panic of 1837|Lost popularity due to his failure of a response|
-William Henry Harrison|had the shortest presidency in U.S. history (1 month)|
-William Henry Harrison|was the first president to die in office|Delivered the longest inaugural address in U.S. history and got pneumonia. Triggered brief constitutional crisis since presidential succession was not fully defined then in the U.S. Constitution|
+Martin Van Buren|is the only president to have spoken English as a second language|Native Dutch speaker from Kinderhook, New York
+Martin Van Buren|resolved the Petticoat affair by resigning as Secretary of State|One of Andrew Jackson's cabinet members married a woman, "Peggy", who was still in mourning. This caused lots of drama, other wives rejected her, and by resigning Jackson could reorganize his cabinet
+Martin Van Buren|faced the panic of 1837|Lost popularity due to his failure of a response
+Martin Van Buren|coined the term "OK"|From his nickname "Old Kinderhook"
+Martin Van Buren|ran for president on three different party tickets|Democrat, Free Soil, and considered for Republican
+William Henry Harrison|had the shortest presidency in U.S. history (31 days)|Served from March 4 to April 4, 1841
+William Henry Harrison|was the first president to die in office|Delivered the longest inaugural address in U.S. history and got pneumonia. Triggered brief constitutional crisis since presidential succession was not fully defined then in the U.S. Constitution
 William Henry Harrison|was the last president born as a British subject in the Thirteen Colonies|
-William Henry Harrison|earned a nickname from the Battle of Tippecanoe|
-John Tyler|became the first vice president to succeed to the presidency|
-John Tyler|was dubbed "His Accidency" by his own party (the Whigs)|
-John Tyler|was the first president to have his veto of legislation overridden by Congress|(1845)|
-John Tyler|signed a bill to offer Texas statehood just before leaving office|(1845)|
-John Tyler|signed the Webster-Ashburton Treaty|(1842) Established the border between the U.S. and Canada, still a British colony at the time|
-John Tyler|signed the Black Tariff|(1842) Protectionist tariff reversing effects of the Compromise Tariff of 1833, raising average tariff rates to almost 40%|
-James K. Polk|was a protégé of Andrew Jackson|
-James K. Polk|oversaw victory in the Mexican-American War|(1846 - 1848) The settlement of this war expanded American territory to the Pacific Ocean|
-James K. Polk|resolved dispute over the Oregon Territory with Great Britain (49th parallel)|
-James K. Polk|is the only person to serve as both Speaker of the House and president|
-James K. Polk|said he'd be a one-term "bridge" president and kept it|
-James K. Polk|signed the Walker Tariff|(1846) Made substantial cuts to the Black Tariff of 1842|
-James K. Polk|reestablished the Independent Treasury system|(1846) System for managing the money supply independently of national banking and financial systems. Functioned until the Federal Reserve system replaced it|
-Zachary Taylor|rose to the rank of major general and became a national hero for victories in the Mexican-American War|
-Zachary Taylor|died 16 months into his term from a stomach disease|
-Zachary Taylor|was the last to be born before the adoption of the U.S. Constitution|
-Zachary Taylor|became the first to be elected without having previously held political office|
-Millard Fillmore|was the last to be neither a Democrat nor a Republican|He was a Whig|
-Millard Fillmore|was instrumental in passing the Compromise of 1850|Defused tensions between slave and free states in years leading up to the Civil War. Centered on how to handle slavery in recently acquired territories from the Mexican-American War|
-Millard Fillmore|backed the Perry Expedition which opened trade in Japan|(1852 - 1853)|
+William Henry Harrison|his campaign slogan was "Tippecanoe and Tyler Too"|First modern political campaign
+William Henry Harrison|studied medicine before entering politics|Under Dr. Benjamin Rush
+John Tyler|became the first vice president to succeed to the presidency|Established precedent for full presidential powers, not just "Acting President"
+John Tyler|was the first president to have his veto of legislation overridden by Congress|(1845)
+John Tyler|signed a bill to offer Texas statehood just before leaving office|(1845)
+John Tyler|signed the Webster-Ashburton Treaty|(1842) Established the border between the U.S. and Canada, still a British colony at the time
+John Tyler|signed the Black Tariff|(1842) Protectionist tariff reversing effects of the Compromise Tariff of 1833, raising average tariff rates to almost 40%
+John Tyler|had 15 children|Most of any president
+John Tyler|served in the Confederate Congress|Only president to join the Confederacy
+John Tyler|was called "His Accidency"|Never accepted as legitimate by many
+James K. Polk|was a protégé of Andrew Jackson|Known as "Young Hickory" after Jackson's "Old Hickory"
+James K. Polk|oversaw victory in the Mexican-American War|(1846 - 1848) The settlement of this war expanded American territory to the Pacific Ocean
+James K. Polk|resolved dispute over the Oregon Territory with Great Britain (49th parallel)|Compromised from campaign slogan "Fifty-four forty or fight!"
+James K. Polk|is the only person to serve as both Speaker of the House and president|Speaker from 1835-1839
+James K. Polk|said he'd be a one-term "bridge" president and kept it|Pledged to serve only one term to win nomination
+James K. Polk|signed the Walker Tariff|(1846) Made substantial cuts to the Black Tariff of 1842
+James K. Polk|reestablished the Independent Treasury system|(1846) System for managing the money supply independently of national banking and financial systems. Functioned until the Federal Reserve system replaced it
+James K. Polk|worked so hard he likely shortened his life|Died 103 days after leaving office
+James K. Polk|kept a detailed diary throughout his presidency|Important historical source
+James K. Polk|is considered the most successful one-term president|Achieved all his major goals
+Zachary Taylor|rose to the rank of major general and became a national hero for victories in the Mexican-American War|Known as "Old Rough and Ready" for his informal style
+Zachary Taylor|died 16 months into his term from a stomach disease|July 9, 1850, possibly from contaminated food or water
+Zachary Taylor|was the last to be born before the adoption of the U.S. Constitution|Born in 1784, Constitution adopted in 1787
+Zachary Taylor|was the first president to be elected without having previously held political office|Career military officer with no political experience
+Zachary Taylor|never voted before becoming president|Career military man
+Zachary Taylor|opposed the expansion of slavery despite owning slaves|Caused tension with the South
+Millard Fillmore|was the last to be neither a Democrat nor a Republican|He was a Whig
+Millard Fillmore|was instrumental in passing the Compromise of 1850|Defused tensions between slave and free states in years leading up to the Civil War. Centered on how to handle slavery in recently acquired territories from the Mexican-American War
+Millard Fillmore|backed the Perry Expedition which opened trade in Japan|(1852 - 1853)
 Millard Fillmore|helped found and was chancellor of the University of Buffalo|
-Franklin Pierce|signed the Kansas-Nebraska Act|(1854) Created the territories of Kansas and Nebraska. Intended to open new lands to develop and build the transcontinental railroad, but effectively repealed the Missouri Compromise of 1820 stoking national tensions and Bleeding Kansas|
-Franklin Pierce|signed the Gadsden Purchase|(1854) Sale of southern Arizona and southwest New Mexico from Mexico to the U.S. for a railroad route|
-James Buchanan|intervened in the Supreme Court's decision of the Dred Scott case|(1857) This decision held the U.S. Constitution did not extend citizenship to people of black African descent. Widely considered the worst in Supreme Court history. Buchanan was friends with a judge, knew the result before it was announced, and pressured another judge|
-James Buchanan|had extremely poor leadership leading up to the Civil War, angering both the North and the South|
+Millard Fillmore|ran for president again on the Know Nothing ticket|(1856) Anti-immigrant party
+Franklin Pierce|signed the Kansas-Nebraska Act|(1854) Created the territories of Kansas and Nebraska. Intended to open new lands to develop and build the transcontinental railroad, but effectively repealed the Missouri Compromise of 1820 stoking national tensions and "Bleeding Kansas"
+Franklin Pierce|signed the Gadsden Purchase|(1854) Sale of southern Arizona and southwest New Mexico from Mexico to the U.S. for a railroad route
+Franklin Pierce|saw his 11-year-old son killed in a train wreck|Two months before inauguration
+Franklin Pierce|was arrested for running over a woman with his horse|While president, charges dropped
+James Buchanan|intervened in the Supreme Court's decision of the Dred Scott case|(1857) This decision held the U.S. Constitution did not extend citizenship to people of black African descent. Widely considered the worst Supreme Court decision in history. Buchanan was friends with a judge, knew the result before it was announced, and pressured another judge
+James Buchanan|had extremely poor leadership leading up to the Civil War|Failed to address secession crisis effectively
 James Buchanan|was the only lifelong bachelor president|
-Abraham Lincoln|led the U.S. through the American Civil War, defeating the Confederate States of America|(1861 - 1865)|
-Abraham Lincoln|reached a national audience in debates against Stephen A. Douglas|
-Abraham Lincoln|issued the Emancipation Proclamation|(1863)|
-Abraham Lincoln|delivered the Gettysburg Address|(1863)|
-Abraham Lincoln|promoted the Thirteenth Amendment to the U.S. Constitution|(1865)|
-Abraham Lincoln|signed the Homestead Act|(1862)|
-Abraham Lincoln|signed the Pacific Railway Acts|(1862)|
-Andrew Johnson|was impeached by the House and acquitted in the Senate by one vote|(1868) Impeached for violating the Tenure of Office Act|
+James Buchanan|sent the military to Utah|"Utah War" against Mormons (1857-1858)
+James Buchanan|is consistently ranked as the worst president|Failed to prevent Civil War
+Abraham Lincoln|led the U.S. through the American Civil War, preserving the Union|(1861-1865) Defeated the Confederate States of America
+Abraham Lincoln|reached a national audience in debates against Stephen A. Douglas|Seven debates in 1858 Illinois Senate race, focused on slavery
+Abraham Lincoln|issued the Emancipation Proclamation|(1863)
+Abraham Lincoln|delivered the Gettysburg Address|(1863)
+Abraham Lincoln|promoted the Thirteenth Amendment to the U.S. Constitution|(1865) Abolished slavery and involuntary servitude
+Abraham Lincoln|signed the Homestead Act|(1862)
+Abraham Lincoln|signed the Pacific Railway Acts|(1862)
+Abraham Lincoln|established Thanksgiving as a national holiday|(1863)
+Abraham Lincoln|created the Secret Service|On the day he was assassinated
+Abraham Lincoln|is the only president to hold a patent|For lifting boats over shoals
+Abraham Lincoln|established the National Banking System|(1863)
+Abraham Lincoln|was the tallest president|6 feet 4 inches
+Andrew Johnson|was impeached by the House and acquitted in the Senate by one vote|(1868) Impeached for violating the Tenure of Office Act, saved by Senator Edmund Ross
 Andrew Johnson|was the only sitting senator from a Confederate state who did not promptly resign his seat upon learning of his state's secession|
-Andrew Johnson|obstructed Reconstruction|Opposed the 14th Amendment and vetoed bills stopping Southern states from passing Black Codes (many of his vetos were overruled)|
+Andrew Johnson|obstructed Reconstruction|Opposed the 14th Amendment and vetoed bills stopping Southern states from passing Black Codes (many of his vetos were overruled)
 Andrew Johnson|is the only president to serve in the Senate after his presidency|
-Andrew Johnson|purchased Alaska from Russia|(1867)|
-Ulysses S. Grant|was commanding general of the Union Army|
-Ulysses S. Grant|prosecuted the Ku Klux Klan|
-Ulysses S. Grant|created the Department of Justice|(1870)|
-Ulysses S. Grant|created the first Civil Service Commission|(1871)|
-Ulysses S. Grant|had an ineffective response to the Long Depression|(1873 - 1879) An economic recession starting with the Panic of 1873|
-Ulysses S. Grant|was the first president to circumnavigate the world|
+Andrew Johnson|purchased Alaska from Russia|(1867)
+Andrew Johnson|was a tailor by trade|Only president to make his own clothes
+Andrew Johnson|was drunk at his vice-presidential inauguration|Had been ill and drank whiskey
+Andrew Johnson|never attended school|Taught to read by his wife
+Ulysses S. Grant|was commanding general of the Union Army|Led Union forces to victory in the Civil War
+Ulysses S. Grant|prosecuted the Ku Klux Klan|Used federal troops and the Enforcement Acts to suppress KKK violence
+Ulysses S. Grant|created the Department of Justice|(1870)
+Ulysses S. Grant|created the first Civil Service Commission|(1871)
+Ulysses S. Grant|had an ineffective response to the Long Depression|(1873 - 1879) An economic recession starting with the Panic of 1873
+Ulysses S. Grant|was the first president to circumnavigate the world|Two-and-a-half-year world tour after presidency (1877-1879)
 Ulysses S. Grant|had his term marred by cabinet-level corruption scandals|
-Rutherford B. Hayes|won presidency via the Corrupt Bargain|Also known as the Compromise of 1877, a speculated unwritten political deal to settle the dispute over results of the 1876 election. Ended the filibuster of certified results and threat of political violence in exchange for an end to federal Reconstruction and military occupation of the former Confederacy|
-Rutherford B. Hayes|resolved the Great Upheaval by calling in the U.S. Army against the railroad workers|(1877) Commonly known as the Great Railroad Strike of 1877. Began after wages were cut for the third time in a year, and remains the deadliest conflict between workers and strikebreakers in American history|
-Rutherford B. Hayes|began civil-service reform|
-Rutherford B. Hayes|restored gold standard after the Civil War by allowing redemption of greenbacks for gold|
-James A. Garfield|is the only sitting member of the House to be elected president|
-James A. Garfield|has an original proof of the Pythagorean theorem|(1876)|
-James A. Garfield|purged corruption in the Post Office|"Star Route" frauds colluded to inflate prices for private contractors and then split the excesses|
-James A. Garfield|could write Greek & Latin simultaneously with both hands|
+Ulysses S. Grant|wrote his memoirs while dying of throat cancer|Finished days before death, bestseller
+Ulysses S. Grant|received a speeding ticket on his horse|While president in D.C.
+Ulysses S. Grant|appears on the $50 bill|Since 1913
+Rutherford B. Hayes|won presidency via the Compromise of 1877|Also known as the "Corrupt Bargain," an unwritten political deal to settle the disputed 1876 election. Ended the filibuster of certified results and threat of political violence in exchange for an end to federal Reconstruction and military occupation of the former Confederacy
+Rutherford B. Hayes|resolved the Great Upheaval by calling in the U.S. Army against the railroad workers|(1877) Commonly known as the Great Railroad Strike of 1877. Began after wages were cut for the third time in a year, and remains the deadliest conflict between workers and strikebreakers in American history
+Rutherford B. Hayes|began civil service reform|Fought the spoils system and political patronage
+Rutherford B. Hayes|restored gold standard after the Civil War|Allowed redemption of greenbacks for gold starting in 1879
+Rutherford B. Hayes|banned alcohol from the White House|His wife was called "Lemonade Lucy"
+Rutherford B. Hayes|started the tradition of the White House Easter Egg Roll|(1878)
+James A. Garfield|is the only sitting member of the House to be elected president|Represented Ohio's 19th district
+James A. Garfield|has an original proof of the Pythagorean theorem|(1876)
+James A. Garfield|purged corruption in the Post Office|"Star Route" frauds colluded to inflate prices for private contractors and then split the excesses
 James A. Garfield|was assassinated after 200 days in office, dying not by the gunshot, but by an infection caused by the doctors|
 James A. Garfield|was a martyr for civil service reform|
+James A. Garfield|was a minister in the Disciples of Christ church|Only preacher to become president
+James A. Garfield|could write Greek with one hand and Latin with the other|Simultaneously
+Chester A. Arthur|signed the Pendleton Civil Service Reform Act|(1883) Established the merit-based system for federal employment, created the Civil Service Commission
+Chester A. Arthur|modernized the U.S. Navy|Started construction of new steel warships
+Chester A. Arthur|dedicated the Washington Monument|(1885)
+Chester A. Arthur|vetoed the Chinese Exclusion Act|Congress overrode his veto in 1882
+Chester A. Arthur|was known as "Elegant Arthur"|Reportedly owned 80 pairs of pants
+Grover Cleveland|married Frances Folsom in the White House|(1886) She was 21, he was 49 - youngest First Lady
+Grover Cleveland|was the first president to have a child born in the White House|Esther Cleveland born in 1893
+Grover Cleveland|dedicated the Statue of Liberty|(1886)
+Grover Cleveland|signed the Interstate Commerce Act|(1887) Created the first independent regulatory agency
+Grover Cleveland|vetoed hundreds of Civil War pension bills|Used veto power more than all previous presidents combined
+Benjamin Harrison|was grandson of President William Henry Harrison|Only grandfather-grandson presidential duo
+Benjamin Harrison|signed the Sherman Antitrust Act|(1890) First federal legislation to limit monopolies
+Benjamin Harrison|admitted six new states to the Union|More than any president since the founding
+Benjamin Harrison|signed the McKinley Tariff|(1890) Raised average tariff rates to almost 50%
+Benjamin Harrison|created Forest Reserves|Predecessor to the National Forest system
+Benjamin Harrison|hosted the first White House Christmas tree with electric lights|(1891)
+William McKinley|led the Spanish-American War|(1898) Resulted in U.S. acquisition of Philippines, Guam, Puerto Rico
+William McKinley|signed the Gold Standard Act|(1900) Established gold as the only standard for redeeming paper money
+William McKinley|was assassinated at the Pan-American Exposition|(1901) Shot by anarchist Leon Czolgosz in Buffalo, NY
+William McKinley|annexed Hawaii|(1898) Formally made it a U.S. territory
+William McKinley|promoted the "Open Door" policy with China|Ensured equal trading rights for all nations
+Theodore Roosevelt|was the youngest president to assume office|Age 42 after McKinley's assassination
+Theodore Roosevelt|won the Nobel Peace Prize for mediating the Russo-Japanese War|(1906)
+Theodore Roosevelt|established five National Parks|Including Crater Lake, Wind Cave, and Mesa Verde
+Theodore Roosevelt|sent the Great White Fleet around the world|(1907-1909) Demonstration of U.S. naval power
+Theodore Roosevelt|coined the term "bully pulpit"|Referring to the presidency's platform to advocate agenda
+Theodore Roosevelt|survived an assassination attempt and finished his speech|(1912) Bullet lodged in his chest after hitting his eyeglass case and speech manuscript
+Theodore Roosevelt|created the Bull Moose Party|Progressive Party formed after Republican nomination loss in 1912
+Theodore Roosevelt|was the first president to fly in an airplane|(1910) After leaving office
+Theodore Roosevelt|invited Booker T. Washington to dine at the White House|(1901) First African American to dine with a president
+Theodore Roosevelt|established the U.S. Forest Service|(1905)
+Theodore Roosevelt|negotiated the construction of the Panama Canal|After supporting Panamanian independence from Colombia
+Theodore Roosevelt|won the Medal of Honor posthumously|(2001) For his actions in the Spanish-American War
+William Howard Taft|was the only president to serve as Chief Justice|Appointed to Supreme Court in 1921
+William Howard Taft|was the heaviest president|Weighed over 300 pounds
+William Howard Taft|threw out the first ceremonial pitch|At a baseball game in 1910
+William Howard Taft|got stuck in the White House bathtub|Had a larger one installed that could fit four men
+William Howard Taft|established the federal income tax system|16th Amendment ratified during his presidency
+William Howard Taft|admitted Arizona and New Mexico as states|(1912) Completed the continental United States
+Woodrow Wilson|won the Nobel Peace Prize for founding the League of Nations|(1919)
+Woodrow Wilson|led the nation through World War I|(1917-1918)
+Woodrow Wilson|promoted the Fourteen Points|Peace plan for post-WWI world order
+Woodrow Wilson|signed the Federal Reserve Act|(1913) Created the modern central banking system
+Woodrow Wilson|suffered a debilitating stroke while in office|(1919) Wife Edith effectively ran the presidency
+Woodrow Wilson|signed the 19th Amendment|(1920) Granted women the right to vote
+Woodrow Wilson|was the first president to hold regular press conferences|Started the tradition of meeting with reporters
+Woodrow Wilson|segregated federal offices|Reversed racial progress from previous administrations
+Warren G. Harding|died in office under mysterious circumstances|(1923) Possible stroke or heart attack
+Warren G. Harding|had his presidency marred by the Teapot Dome scandal|Major bribery scandal involving oil reserves
+Warren G. Harding|coined the term "Founding Fathers"|First used in his 1921 inaugural address
+Warren G. Harding|was the first president elected after women gained suffrage|(1920)
+Warren G. Harding|had multiple extramarital affairs|Including with Nan Britton who claimed he fathered her daughter
+Warren G. Harding|pardoned Eugene V. Debs|Socialist leader imprisoned under Espionage Act
+Calvin Coolidge|was sworn in by his father|A notary public, at 2:47 AM by kerosene lamp
+Calvin Coolidge|was known as "Silent Cal"|Famous for his laconic style
+Calvin Coolidge|presided over the Roaring Twenties economic boom|Era of rapid economic growth
+Calvin Coolidge|had a pet raccoon named Rebecca|Lived in the White House
+Calvin Coolidge|reduced federal debt by a quarter|Through budget cuts and tax reductions
+Herbert Hoover|presided over the start of the Great Depression|Stock market crashed in 1929
+Herbert Hoover|was a successful mining engineer before politics|Made millions in the mining industry
+Herbert Hoover|organized relief efforts during WWI|Fed millions of Europeans as head of relief commission
+Herbert Hoover|signed the Smoot-Hawley Tariff|(1930) Worsened the Great Depression
+Herbert Hoover|ordered the Army to clear the Bonus Army|(1932) WWI veterans demanding early bonus payment
+Herbert Hoover|lived the longest post-presidency|31 years, 230 days after leaving office
+Herbert Hoover|was the first president born west of the Mississippi|Born in Iowa
+Franklin D. Roosevelt|was elected to four terms|Only president to serve more than two terms
+Franklin D. Roosevelt|led the nation through the Great Depression and WWII|New Deal programs and wartime leadership
+Franklin D. Roosevelt|established Social Security|(1935) Created the social safety net
+Franklin D. Roosevelt|ordered Japanese American internment|(1942) Executive Order 9066
+Franklin D. Roosevelt|appointed the first woman to the Cabinet|Frances Perkins as Secretary of Labor
+Franklin D. Roosevelt|died in office during his fourth term|(1945) At Warm Springs, Georgia
+Franklin D. Roosevelt|was paralyzed from the waist down|Due to polio contracted in 1921
+Franklin D. Roosevelt|held "fireside chats" on radio|30 evening radio addresses to the nation
+Franklin D. Roosevelt|established the March of Dimes|To combat polio
+Franklin D. Roosevelt|met with Churchill and Stalin at Yalta|(1945) Decided post-war order
+Harry S. Truman|made the decision to drop atomic bombs on Japan|(1945) Hiroshima and Nagasaki
+Harry S. Truman|implemented the Marshall Plan|(1948) Rebuilt Europe after WWII
+Harry S. Truman|recognized Israel within minutes of its declaration|(1948)
+Harry S. Truman|desegregated the military|Executive Order 9981 in 1948
+Harry S. Truman|fired General Douglas MacArthur|(1951) For insubordination during Korean War
+Harry S. Truman|survived an assassination attempt by Puerto Rican nationalists at Blair House|(1950) By Puerto Rican nationalists at Blair House
+Harry S. Truman|established the CIA and NSA|National Security Act of 1947
+Harry S. Truman|initiated the Berlin Airlift|(1948-1949) Supplied West Berlin during Soviet blockade
+Harry S. Truman|had the lowest approval rating ever recorded|22% in 1952
+Dwight D. Eisenhower|was Supreme Allied Commander in WWII|Led D-Day invasion
+Dwight D. Eisenhower|created the Interstate Highway System|(1956) Largest public works project in U.S. history
+Dwight D. Eisenhower|sent federal troops to enforce school desegregation|Little Rock Nine in 1957
+Dwight D. Eisenhower|warned about the "military-industrial complex"|In his farewell address
+Dwight D. Eisenhower|ended the Korean War|(1953) Negotiated armistice
+Dwight D. Eisenhower|established NASA|(1958) In response to Sputnik
+Dwight D. Eisenhower|suffered a heart attack while in office|(1955) Recovered and won re-election
+Dwight D. Eisenhower|was the first president to appear on color television|(1955)
+Dwight D. Eisenhower|authorized the U-2 spy plane program|Secret aerial reconnaissance
+John F. Kennedy|was the youngest elected president|Age 43 at inauguration
+John F. Kennedy|was assassinated in Dallas|(1963) By Lee Harvey Oswald
+John F. Kennedy|established the Peace Corps|(1961)
+John F. Kennedy|handled the Cuban Missile Crisis|(1962) Avoided nuclear war
+John F. Kennedy|initiated the Apollo space program|Pledged to land on the moon
+John F. Kennedy|was the first Catholic president|Faced anti-Catholic bias during campaign
+John F. Kennedy|authorized the failed Bay of Pigs invasion|(1961) Attempt to overthrow Castro
+John F. Kennedy|signed the Nuclear Test Ban Treaty|(1963) With UK and Soviet Union
+John F. Kennedy|won a Pulitzer Prize|For "Profiles in Courage"
+John F. Kennedy|had Addison's disease|Kept his health problems secret
+Lyndon B. Johnson|signed the Civil Rights Act of 1964|Landmark anti-discrimination legislation
+Lyndon B. Johnson|signed the Voting Rights Act of 1965|Protected African American voting rights
+Lyndon B. Johnson|escalated the Vietnam War|Increased troops from 16,000 to 500,000
+Lyndon B. Johnson|launched the "War on Poverty"|Created Medicare, Medicaid, Head Start
+Lyndon B. Johnson|signed the Immigration Act of 1965|Ended national origin quotas
+Lyndon B. Johnson|withdrew from the 1968 presidential race|Due to Vietnam War opposition
+Lyndon B. Johnson|was sworn in aboard Air Force One|After Kennedy's assassination
+Lyndon B. Johnson|appointed the first African American Supreme Court Justice|Thurgood Marshall in 1967
+Lyndon B. Johnson|signed the Gun Control Act of 1968|First major federal gun control law
+Richard Nixon|was the only president to resign from office|(1974) Due to Watergate scandal
+Richard Nixon|opened relations with China|(1972) Historic visit to Beijing
+Richard Nixon|signed the Clean Air Act and created the EPA|(1970)
+Richard Nixon|ended U.S. involvement in Vietnam|(1973) "Peace with Honor"
+Richard Nixon|initiated détente with the Soviet Union|SALT I treaty and reduced tensions
+Richard Nixon|implemented the Southern Strategy|Appealed to white Southern voters
+Richard Nixon|took the U.S. off the gold standard|(1971) Ended Bretton Woods system
+Richard Nixon|was pardoned by Gerald Ford|(1974) For any crimes committed in office
+Richard Nixon|appointed four Supreme Court justices|Including the first two women considered
+Gerald Ford|was the only unelected president|Appointed VP, then became president
+Gerald Ford|pardoned Richard Nixon|(1974) Controversial "full, free, and absolute pardon"
+Gerald Ford|survived two assassination attempts|(1975) Both in California within weeks
+Gerald Ford|was an Eagle Scout|Only president to achieve this rank
+Gerald Ford|presided over the fall of Saigon|(1975) End of Vietnam War
+Gerald Ford|signed the Helsinki Accords|(1975) Recognized post-WWII European borders
+Gerald Ford|was a star football player at Michigan|Turned down NFL offers
+Gerald Ford|appointed the first female White House photographer|
+Jimmy Carter|brokered the Camp David Accords|(1978) Peace between Israel and Egypt
+Jimmy Carter|faced the Iran hostage crisis|444 days, ended on Reagan's inauguration day
+Jimmy Carter|established the Department of Energy and Education|(1977 and 1979)
+Jimmy Carter|pardoned Vietnam War draft evaders|(1977) Controversial first-day action
+Jimmy Carter|installed solar panels on the White House|Removed by Reagan
+Jimmy Carter|gave away the Panama Canal|Treaties signed in 1977
+Jimmy Carter|was attacked by a rabbit while fishing|(1979) "Killer rabbit" incident
+Jimmy Carter|won the Nobel Peace Prize for post-presidency humanitarian work|(2002)
+Jimmy Carter|built homes with Habitat for Humanity|Most active post-presidency
+Jimmy Carter|lived to age 100|Longest-lived president
+Ronald Reagan|survived an assassination attempt by John Hinckley Jr.|(1981) Shot by John Hinckley Jr.
+Ronald Reagan|appointed the first woman Supreme Court Justice|Sandra Day O'Connor in 1981
+Ronald Reagan|was the oldest elected president|Age 69 at first inauguration, 73 at second
+Ronald Reagan|was a Hollywood actor before politics|Appeared in over 50 films
+Ronald Reagan|said "Mr. Gorbachev, tear down this wall"|(1987) At Brandenburg Gate
+Ronald Reagan|fired air traffic controllers|(1981) 11,000 PATCO strikers
+Ronald Reagan|was diagnosed with Alzheimer's disease|(1994) Five years after leaving office
+Ronald Reagan|survived the "Curse of Tippecanoe"|First president elected in year ending in 0 to survive office since 1840
+Ronald Reagan|implemented "Reaganomics"|Supply-side economics and tax cuts
+Ronald Reagan|invaded Grenada|(1983) Operation Urgent Fury
+George H. W. Bush|led coalition in the Gulf War|(1991) Expelled Iraq from Kuwait
+George H. W. Bush|was a WWII Navy pilot|Shot down over Pacific, rescued by submarine
+George H. W. Bush|signed the Americans with Disabilities Act|(1990)
+George H. W. Bush|presided over the fall of the Berlin Wall|(1989) End of Cold War
+George H. W. Bush|broke "no new taxes" pledge|Cost him re-election
+George H. W. Bush|pardoned Iran-Contra figures|Six pardons on Christmas Eve 1992
+George H. W. Bush|was former CIA Director|Only president with intelligence background
+George H. W. Bush|vomited on Japanese Prime Minister|(1992) During state dinner
+George H. W. Bush|signed NAFTA negotiations|Completed by Clinton
+Bill Clinton|was impeached but acquitted|(1998) For perjury and obstruction
+Bill Clinton|presided over the longest peacetime economic expansion|1990s boom years
+Bill Clinton|signed welfare reform|(1996) "End welfare as we know it"
+Bill Clinton|balanced the federal budget|First surpluses since 1969
+Bill Clinton|signed NAFTA into law|(1993) North American Free Trade Agreement
+Bill Clinton|ordered NATO bombing of Yugoslavia|(1999) Kosovo War
+Bill Clinton|played the saxophone on Arsenio Hall Show|(1992) During campaign
+Bill Clinton|appointed the second woman Supreme Court Justice|Ruth Bader Ginsburg in 1993
+Bill Clinton|established AmeriCorps|(1993) National service program
+Bill Clinton|was a Rhodes Scholar|At Oxford University
+George W. Bush|led response to 9/11 attacks|(2001) War on Terror
+George W. Bush|invaded Iraq|(2003) Based on WMD intelligence that proved false
+George W. Bush|signed No Child Left Behind|(2001) Education reform act
+George W. Bush|created Department of Homeland Security|(2002)
+George W. Bush|signed Medicare Part D|Prescription drug benefit for seniors
+George W. Bush|responded to Hurricane Katrina|(2005) Widely criticized response
+George W. Bush|signed the Patriot Act|(2001) Expanded surveillance powers
+George W. Bush|bailed out banks during financial crisis|(2008) TARP program
+George W. Bush|had shoes thrown at him in Iraq|(2008) Ducked both shoes
+George W. Bush|was a former owner of Texas Rangers baseball team|Before becoming governor
+Barack Obama|was the first African American president|Historic 2008 election
+Barack Obama|signed the Affordable Care Act|(2010) "Obamacare" healthcare reform
+Barack Obama|ordered the killing of Osama bin Laden|(2011) Navy SEAL raid in Pakistan
+Barack Obama|won the Nobel Peace Prize despite serving less than a year|(2009)
+Barack Obama|signed the Paris Climate Agreement|(2015)
+Barack Obama|normalized relations with Cuba|(2014) Ended 50+ year embargo
+Barack Obama|signed Dodd-Frank financial reform|(2010) Response to 2008 crisis
+Barack Obama|legalized same-sex marriage nationwide|Through Supreme Court case Obergefell v. Hodges (2015)
+Barack Obama|was born in Hawaii|First president born outside continental U.S.
+Barack Obama|was a constitutional law professor|At University of Chicago
+Barack Obama|authorized record number of drone strikes|Controversial counterterrorism tactic
+Donald Trump|was impeached twice|(2019 and 2021) Acquitted both times
+Donald Trump|had no prior political or military experience|First president with neither
+Donald Trump|was indicted on criminal charges|First former president indicted (2023)
+Donald Trump|appointed three Supreme Court justices|Shifted court conservative for generation
+Donald Trump|moved U.S. embassy to Jerusalem|(2018)
+Donald Trump|met with North Korean leader Kim Jong Un|(2018) First sitting president to do so
+Donald Trump|was banned from social media platforms|(2021) After January 6 Capitol attack
+Donald Trump|signed First Step Act|Criminal justice reform (2018)
+Donald Trump|implemented "America First" foreign policy|Withdrew from multiple international agreements
+Donald Trump|built portions of border wall with Mexico|Key campaign promise
+Donald Trump|was convicted of 34 felonies|(2024) First president convicted of crimes
+Donald Trump|was the oldest president ever inaugurated|Age 78 at inauguration
+Joe Biden|withdrew from Afghanistan|(2021) Ended 20-year war
+Joe Biden|signed the Infrastructure Investment and Jobs Act|(2021) $1.2 trillion package
+Joe Biden|led NATO response to Russian invasion of Ukraine|(2022)
+Joe Biden|appointed first Black woman Supreme Court Justice|Ketanji Brown Jackson in 2022
+Joe Biden|signed the CHIPS and Science Act|(2022) Boost semiconductor manufacturing
+Joe Biden|signed the Inflation Reduction Act|(2022) Climate and healthcare provisions
+Joe Biden|served in Senate for 36 years|One of longest Senate careers
+Joe Biden|lost his first wife and daughter in car accident|(1972) Just after Senate election
+Joe Biden|suspended his 2024 re-election campaign|First president to withdraw after winning primaries

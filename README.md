@@ -12,29 +12,28 @@ This repository stores notes in a structured format that's easy to read, edit, a
 - **Anki-Compatible Format**: Notes are stored in pipe-separated format ready for Anki import.
 - **Version Control**: Track changes to your notes over time with Git.
 - **Organized Structure**: Notes grouped by deck/topic for better management.
+- **Documentation**: Each note type includes field definitions and card templates.
 
 ## 📝 Usage
 
 ### Repository Structure
 The repository contains note types organized as:
 - **`<note-type>/`**: Top-level directories for different types of flashcards
+  - `fields.md`: Documentation describing each field/column in the notes
+  - `cards.md`: Anki card templates and formatting instructions
   - `<deck>/notes.txt`: Pipe-separated note data for a specific deck
 
 **Example structure:**
 ```
 quotes/
-├── us-presidents/
-│   └── notes.txt    # Presidential quotes
-└── world-leaders/
-    └── notes.txt    # Other leader quotes
-
-us-presidents-info/
+├── fields.md        # Field descriptions (Author, Quote, etc.)
+├── cards.md         # Card templates for quote formatting
 └── us-presidents/
-    └── notes.txt    # Basic presidential facts
+    └── notes.txt    # Presidential quotes data
 ```
 
 ### File Format
-Notes are stored in `.txt` files with pipe (`|`) separated values. The format varies by note type:
+Notes are stored in `.txt` files with pipe (`|`) separated values. The format varies by note type and is documented in each `fields.md` file.
 
 **Simple two-column format** (e.g., quotes):
 ```
@@ -44,33 +43,34 @@ Thomas Jefferson|The tree of liberty must be refreshed from time to time with th
 
 **Multi-column format** (e.g., detailed info):
 ```
-Number|Name|Terms|Party|Summary
-1|George Washington|1789 - 1797|Unaffiliated|Led the Continental Army; first president; set the two-term precedent
+Number|Name|Term|Party|State
+1|George Washington|1789 - 1797|Unaffiliated|Virginia
 ```
 
 ### Adding New Notes
 1. Navigate to the appropriate note type directory.
-2. Open the `notes.txt` file in the relevant deck subdirectory.
-3. Add new lines following the established format for that note type:
+2. Review the `fields.md` file to understand the field structure.
+3. Open the `notes.txt` file in the relevant deck subdirectory.
+4. Add new lines following the established format:
    - Use pipe (`|`) as field separator
-   - Maintain consistent column structure within each note type
+   - Maintain consistent column structure as defined in `fields.md`
    - No headers in the file itself
-4. Commit changes: `git add . && git commit -m "Add new notes"`
+5. Commit changes: `git add . && git commit -m "Add new notes"`
 
 ### Creating New Note Types
 1. Create a new top-level directory with descriptive name (e.g., `world-capitals/`).
-2. Inside, create a deck subdirectory (e.g., `geography/`).
-3. Create `notes.txt` with your desired pipe-separated format.
-4. Consider adding documentation files:
+2. Create documentation files:
    - `fields.md`: Description of each field/column
-   - `cards.md`: Anki card templates
-   - `guidelines.md`: Style guide for adding notes
+   - `cards.md`: Anki card templates and formatting instructions
+3. Create a deck subdirectory (e.g., `geography/`).
+4. Create `notes.txt` with your desired pipe-separated format.
 
 ### Importing to Anki
-1. Copy the `notes.txt` file you want to import
-2. Convert pipes to tabs if needed for Anki compatibility
-3. Import via Anki's File > Import feature
-4. Map fields appropriately during import
+1. Review the `cards.md` file for the note type to understand card templates.
+2. Copy the `notes.txt` file you want to import.
+3. Import via Anki's File > Import feature.
+4. Map fields appropriately during import using the `fields.md` documentation.
+5. Apply card templates as described in `cards.md`.
 
 ## 🤝 Contributing
 
@@ -78,6 +78,7 @@ Feel free to fork and submit pull requests! When adding new content:
 - Follow existing format conventions for each note type
 - Use consistent pipe separation
 - Maintain clear, factual content
-- Update this README if adding new note types
+- Update documentation files (`fields.md`, `cards.md`) when creating new note types
+- Keep field definitions clear and card templates well-documented
 
 Happy learning! 🚀

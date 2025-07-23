@@ -1,45 +1,45 @@
-1|George Washington|1789 - 1797|Unaffiliated|Led the Continental Army; first president; created the Cabinet; set the two-term precedent; kept young nation neutral
-2|John Adams|1797 - 1801|Federalist|Revolutionary diplomat; built a blue-water Navy; avoided war with France (Quasi-War) via diplomacy; Alien & Sedition Acts hurt popularity
-3|Thomas Jefferson|1801 - 1809|Democratic-Republican|Principal author of the Declaration; Louisiana Purchase doubled U.S. territory; backed Lewis & Clark; promoted limited federal power
-4|James Madison|1809 - 1817|Democratic-Republican|"Father of the Constitution"; steered nation through War of 1812; later supported re-chartered national bank and protective tariffs
-5|James Monroe|1817 - 1825|Democratic-Republican|Monroe Doctrine asserted Western‐Hemisphere independence from Europe; "Era of Good Feelings"; Missouri Compromise signed
-6|John Quincy Adams|1825 - 1829|Democratic-Republican|Brilliant diplomat behind Monroe Doctrine; pushed internal improvements as president; later fought slavery in Congress
-7|Andrew Jackson|1829 - 1837|Democratic|Hero of New Orleans; championed "common man" democracy; killed Second Bank; enforced Indian Removal; expanded presidential veto power
-8|Martin Van Buren|1837 - 1841|Democratic|Architect of modern Democratic Party; faced the Panic of 1837 economic crash; maintained U.S. neutrality in Canadian border unrest
-9|William Henry Harrison|1841 - 1841|Whig|Tippecanoe war hero; first Whig president; delivered longest inaugural, died one month into term
-10|John Tyler|1841 - 1845|Whig|First VP to succeed on death; clashed with Whig Congress; laid groundwork for annexing Texas, completed just before leaving office
-11|James K. Polk|1845 - 1849|Democratic|Oversaw major expansion—Oregon boundary and Mexican-American War gains (California, Southwest); reinstated independent treasury; kept one-term pledge
-12|Zachary Taylor|1849 - 1850|Whig|Mexican War general; opposed immediate spread of slavery to new territories; died in office after 16 months
-13|Millard Fillmore|1850 - 1853|Whig|Signed Compromise of 1850 (incl. Fugitive Slave Act); backed Perry expedition opening Japan; last Whig president
-14|Franklin Pierce|1853 - 1857|Democratic|Gadsden Purchase for southern railroad route; sponsored Kansas-Nebraska Act, igniting violent sectional conflict
-15|James Buchanan|1857 - 1861|Democratic|Presided over deepening split before Civil War; supported Dred Scott decision and pro-Southern Kansas constitution; failed to halt secession
-16|Abraham Lincoln|1861 - 1865|Republican|Led Union to victory in Civil War; issued Emancipation Proclamation; pushed Homestead Act and transcontinental railroad; assassinated 1865
-17|Andrew Johnson|1865 - 1869|National Union|Directed early Reconstruction, vetoed Radical plans; first impeached president (acquitted); purchased Alaska from Russia
-18|Ulysses S. Grant|1869 - 1877|Republican|Enforced civil-rights laws, crushed KKK; completed transcontinental railroad; term marred by Cabinet-level corruption scandals
-19|Rutherford B. Hayes|1877 - 1881|Republican|Ended military Reconstruction via Compromise of 1877; began civil-service reform; restored trust after disputed election
-20|James A. Garfield|1881 - 1881|Republican|Advocated merit‐based civil service and education; assassinated after six months, spurring Pendleton Reform
-21|Chester A. Arthur|1881 - 1885|Republican|Signed Pendleton Civil Service Act; modernized U.S. Navy; curbed pork-barrel spending with Rivers & Harbors veto
-22 and 24|Grover Cleveland|1885 - 1889 and 1893 - 1897|Democratic|Battled patronage and high tariffs; faced Panic of 1893; defended gold standard; used federal troops to end Pullman Strike; opposed imperialism
-23|Benjamin Harrison|1889 - 1893|Republican|Sherman Antitrust and Silver Purchase Acts; admitted six western states; strengthened coastal Navy defenses
-25|William McKinley|1897 - 1901|Republican|Won Spanish-American War, gaining Puerto Rico, Guam, Philippines; enacted high tariffs and Gold Standard Act; assassinated 1901
-26|Theodore Roosevelt|1901 - 1909|Republican|"Square Deal" trust-buster; conserved vast lands; built Panama Canal; brokered Russo-Japanese peace (Nobel Prize)
-27|William Howard Taft|1909 - 1913|Republican|Prolific antitrust suits; backed 16th Amendment (income tax); later Chief Justice; split GOP, paving way for Democrats in 1912
-28|Woodrow Wilson|1913 - 1921|Democratic|Progressive era reforms (Federal Reserve, FTC); led U.S. in World War I; proposed League of Nations; 19th Amendment ratified
-29|Warren G. Harding|1921 - 1923|Republican|Called for "normalcy"; cut taxes, limited immigration; hosted Washington Naval Conference; administration tarred by Teapot Dome; died in office
-30|Calvin Coolidge|1923 - 1929|Republican|"Silent Cal"; championed small government, tax cuts, budget surpluses; prosperity of Roaring Twenties; signed Immigration Act 1924
-31|Herbert Hoover|1929 - 1933|Republican|Global relief organizer turned president; promoted voluntary business responses to Great Depression; authorized Hoover Dam; blamed for collapse
-32|Franklin D. Roosevelt|1933 - 1945|Democratic|New Deal reshaped government role; led U.S. through most of WWII; Social Security founded; elected to four terms
-33|Harry S. Truman|1945 - 1953|Democratic|Ended WWII with atomic bombs; Marshall Plan & NATO; recognized Israel; desegregated military; entered Korean War
-34|Dwight D. Eisenhower|1953 - 1961|Republican|WWII Allied commander; launched Interstate Highway System; balanced Cold-War containment with peace; presided over 1950s prosperity
-35|John F. Kennedy|1961 - 1963|Democratic|New Frontier vision; steered nation through Cuban Missile Crisis; pledged moon landing; began major civil-rights push; assassinated 1963
-36|Lyndon B. Johnson|1963 - 1969|Democratic|Great Society (Medicare, Voting & Civil Rights Acts); escalated Vietnam War; launched War on Poverty; declined re-election bid
-37|Richard Nixon|1969 - 1974|Republican|Opened China; détente with USSR; created EPA; ended draft; resigned over Watergate scandal
-38|Gerald Ford|1974 - 1977|Republican|Pardoned Nixon for closure; Helsinki Accords advanced détente; faced stagflation and energy shocks; only unelected president
-39|Jimmy Carter|1977 - 1981|Democratic|Brokered Camp David Accords; founded Departments of Energy & Education; struggled with inflation and Iran hostage crisis
-40|Ronald Reagan|1981 - 1989|Republican|Supply-side tax cuts, deregulation, Cold-War defense buildup; INF Treaty; Iran-Contra controversy; survived assassination attempt
-41|George H. W. Bush|1989 - 1993|Republican|Managed peaceful end of Cold War; led coalition in Gulf War; signed ADA; recession undercut 1992 re-election
-42|Bill Clinton|1993 - 2001|Democratic|Economic boom; balanced budget and welfare reform; NAFTA; impeached over perjury (acquitted); left office with surplus
-43|George W. Bush|2001 - 2009|Republican|Responded to 9/11; wars in Afghanistan & Iraq; No Child Left Behind; Medicare Part D; financial crisis 2008
-44|Barack Obama|2009 - 2017|Democratic|Affordable Care Act; Dodd-Frank reforms; ordered bin Laden raid; normalized relations with Cuba; Paris climate accord
-45 and 47|Donald Trump|2017 - 2021 and Incumbent|Republican|Tax Cuts and Jobs Act; deregulation; reshaped Supreme Court; "America First" trade policy; impeached twice; COVID-19 pandemic response
-46|Joe Biden|2021 - 2025|Democratic|Passed large federal spending bills; withdrew from Afghanistan; presided during high inflation 
+1|George Washington|1789 - 1797|Unaffiliated|Virginia
+2|John Adams|1797 - 1801|Federalist|Massachusetts
+3|Thomas Jefferson|1801 - 1809|Democratic-Republican|Virginia
+4|James Madison|1809 - 1817|Democratic-Republican|Virginia
+5|James Monroe|1817 - 1825|Democratic-Republican|Virginia
+6|John Quincy Adams|1825 - 1829|Democratic-Republican|Massachusetts
+7|Andrew Jackson|1829 - 1837|Democratic|Tennessee
+8|Martin Van Buren|1837 - 1841|Democratic|New York
+9|William Henry Harrison|1841 - 1841|Whig|Ohio
+10|John Tyler|1841 - 1845|Whig|Virginia
+11|James K. Polk|1845 - 1849|Democratic|Tennessee
+12|Zachary Taylor|1849 - 1850|Whig|Louisiana
+13|Millard Fillmore|1850 - 1853|Whig|New York
+14|Franklin Pierce|1853 - 1857|Democratic|New Hampshire
+15|James Buchanan|1857 - 1861|Democratic|Pennsylvania
+16|Abraham Lincoln|1861 - 1865|Republican|Illinois
+17|Andrew Johnson|1865 - 1869|National Union|Tennessee
+18|Ulysses S. Grant|1869 - 1877|Republican|Illinois
+19|Rutherford B. Hayes|1877 - 1881|Republican|Ohio
+20|James A. Garfield|1881 - 1881|Republican|Ohio
+21|Chester A. Arthur|1881 - 1885|Republican|New York
+22 and 24|Grover Cleveland|1885 - 1889 and 1893 - 1897|Democratic|New York
+23|Benjamin Harrison|1889 - 1893|Republican|Indiana
+25|William McKinley|1897 - 1901|Republican|Ohio
+26|Theodore Roosevelt|1901 - 1909|Republican|New York
+27|William Howard Taft|1909 - 1913|Republican|Ohio
+28|Woodrow Wilson|1913 - 1921|Democratic|New Jersey
+29|Warren G. Harding|1921 - 1923|Republican|Ohio
+30|Calvin Coolidge|1923 - 1929|Republican|Massachusetts
+31|Herbert Hoover|1929 - 1933|Republican|California
+32|Franklin D. Roosevelt|1933 - 1945|Democratic|New York
+33|Harry S. Truman|1945 - 1953|Democratic|Missouri
+34|Dwight D. Eisenhower|1953 - 1961|Republican|Kansas
+35|John F. Kennedy|1961 - 1963|Democratic|Massachusetts
+36|Lyndon B. Johnson|1963 - 1969|Democratic|Texas
+37|Richard Nixon|1969 - 1974|Republican|California
+38|Gerald Ford|1974 - 1977|Republican|Michigan
+39|Jimmy Carter|1977 - 1981|Democratic|Georgia
+40|Ronald Reagan|1981 - 1989|Republican|California
+41|George H. W. Bush|1989 - 1993|Republican|Texas
+42|Bill Clinton|1993 - 2001|Democratic|Arkansas
+43|George W. Bush|2001 - 2009|Republican|Texas
+44|Barack Obama|2009 - 2017|Democratic|Illinois
+45 and 47|Donald Trump|2017 - 2021 and Incumbent|Republican|New York
+46|Joe Biden|2021 - 2025|Democratic|Delaware 

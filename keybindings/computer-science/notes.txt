@@ -1,0 +1,103 @@
+list sessions|tmux ls|tmux
+start a new session|tmux new -s mysession|tmux
+attach to a session|tmux attach -t mysession|tmux
+detach from a session|Ctrl-b d|tmux
+kill a session|tmux kill-session -t mysession|tmux
+new window|Ctrl-b c|tmux
+close current window|Ctrl-b &|tmux
+switch to new window|Ctrl-b n|tmux
+switch to previous window|Ctrl-b p|tmux
+switch to specific window number|Ctrl-b <number>|tmux
+split panes vertically|Ctrl-b %|tmux
+split panes horizontally|Ctrl-b “|tmux
+move between panes|Ctrl-b <hjkl>|tmux
+resize panes|opt <arrow keys>|tmux
+close a pane|Ctrl-b x|tmux
+turn status bar on or off|Ctrl-b :set -g status on/off|tmux
+enter copy mode|Ctrl-b [|tmux
+rg “some text” /some/path|search for “some text” under directory|rg
+fd filename /some/path|search for filename under directory|fd
+undo|u|nvim normal mode
+delete character under cursor|x|nvim normal mode
+delete whole line|dd|nvim normal mode
+undo a whole line|U|nvim normal mode
+redo|<C-r>|nvim normal mode
+put buffer text after the cursor|p|nvim normal mode
+put buffer text before the cursor|P|nvim normal mode
+replace character|r|nvim normal mode
+replace mode|R|nvim normal mode
+show location in a file and file status|<C-g>|nvim normal mode
+jump to line in file|{count}G|nvim normal mode
+jump to bottom of the file|G|nvim normal mode
+jump to start of the file|gg|nvim normal mode
+scroll view down one line|<C-e>|nvim normal mode
+scroll view up one line|<C-y>|nvim normal mode
+scroll view down half a screen|<C-d>|nvim normal mode
+scroll view up half a screen|<C-u>|nvim normal mode
+scroll view down a full screen|<C-f>|nvim normal mode
+scroll view up a full screen|<C-b>|nvim normal mode
+redraw view with cursor at top|zt|nvim normal mode
+redraw view with cursor line centered|zz|nvim normal mode
+redraw view with cursor at bottom|zb|nvim normal mode
+insert mode at cursor|i|nvim normal mode
+insert mode after cursor|a|nvim normal mode
+insert at end of line|A|nvim normal mode
+insert a line below the cursor|o|nvim normal mode
+insert a line above the cursor|O|nvim normal mode
+jump from one window to another|<C-w><C-w>|nvim normal mode
+prefix to yank to clipboard|“+|nvim normal mode
+quit|:q|nvim commands
+quit without saving|:q!|nvim commands
+save|:w|nvim commands
+save and quit|:wq|nvim commands
+save to filename|:w FILENAME|nvim commands
+open help|:help|nvim commands
+execute external command|:!{command}|nvim commands
+retrieve contents of a file|:r FILENAME|nvim commands
+retrieve contents of external command|:r !{command}|nvim commands
+set option|:set {option}|nvim commands
+command completion|<C-d> OR <Tab>|nvim commands
+search for phrase top down|/{phrase}<Enter>|nvim search
+search for phrase bottom up|?{phrase}<Enter>|nvim search
+search for same phrase again|n|nvim search
+search for same phrase in the opposite direction|N|nvim search
+go back to where you came from|<C-o>|nvim search
+go forward|<C-i>|nvim search
+matching parenthesis|%|nvim search
+first match in line|:s/old/new/|nvim substitute
+all occurrences in line|:s/old/new/g|nvim substitute
+every occurrence between two lines|:#,#s/old/new/g|nvim substitute
+every occurrence in whole file|:%s/old/new/g|nvim substitute
+to ask for confirmation each time|:%s/old/new/gc|nvim substitute
+delete|d|nvim operators
+change|c|nvim operators
+visual selection|v|nvim operators
+yank|y|nvim operators
+move cursor down|j|nvim motions
+move cursor up|k|nvim motions
+move cursor left|h|nvim motions
+move cursor right|l|nvim motions
+go to start of the next word|w|nvim motions
+go back to next word beginning|b|nvim motions
+go to the end of the current word|e|nvim motions
+go to the end of the line|$|nvim motions
+repeats the motion that many times|numbers|nvim motions
+move to start of line|0|nvim motions
+leader key|space|nvchad
+switch window|<Ctrl-kjhl>|nvchad
+comment|space /|nvchad
+close everything|:qa|nvchad
+focus window|space e|nvchad nvim-tree
+toggle window|<C-n>|nvchad nvim-tree
+open file|enter|nvchad nvim-tree
+add file|a|nvchad nvim-tree
+delete|d|nvchad nvim-tree
+rename|r|nvchad nvim-tree
+close tree|q|nvchad nvim-tree
+find file|space f f|nvchad telescope
+live grep|space f w|nvchad telescope
+new|space b|nvchad buffers
+close|space x|nvchad buffers
+goto next|<Tab>|nvchad buffers
+goto prev|<S-Tab>|nvchad buffers
+

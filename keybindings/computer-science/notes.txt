@@ -96,3 +96,7 @@ select whole line|Shift-v|nvim visual mode
 toggle comments|gc|nvim visual mode
 previous buffer|:bp|nvim commands
 next buffer|:bn|nvim commands
+start recording macro|q{register}|nvim macros
+stop recording macro|q|nvim macros
+play macro|@{register}|nvim macros
+repeat last macro|@@|nvim macros

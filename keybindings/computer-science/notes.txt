@@ -83,21 +83,3 @@ go to the end of the current word|e|nvim motions
 go to the end of the line|$|nvim motions
 repeats the motion that many times|numbers|nvim motions
 move to start of line|0|nvim motions
-leader key|space|nvchad
-switch window|<Ctrl-kjhl>|nvchad
-comment|space /|nvchad
-close everything|:qa|nvchad
-focus window|space e|nvchad nvim-tree
-toggle window|<C-n>|nvchad nvim-tree
-open file|enter|nvchad nvim-tree
-add file|a|nvchad nvim-tree
-delete|d|nvchad nvim-tree
-rename|r|nvchad nvim-tree
-close tree|q|nvchad nvim-tree
-find file|space f f|nvchad telescope
-live grep|space f w|nvchad telescope
-new|space b|nvchad buffers
-close|space x|nvchad buffers
-goto next|<Tab>|nvchad buffers
-goto prev|<S-Tab>|nvchad buffers
-

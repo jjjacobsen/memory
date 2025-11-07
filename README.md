@@ -55,7 +55,6 @@ Number|Name|Term|Party|State
    - Use pipe (`|`) as field separator
    - Maintain consistent column structure as defined in `fields.md`
    - No headers in the file itself
-5. Commit changes: `git add . && git commit -m "Add new notes"`
 
 ### Creating New Note Types
 1. Create a new top-level directory with descriptive name (e.g., `world-capitals/`).

@@ -83,3 +83,16 @@ go to the end of the current word|e|nvim motions
 go to the end of the line|$|nvim motions
 repeats the motion that many times|numbers|nvim motions
 move to start of line|0|nvim motions
+print tree for next command|:pt|broot
+create file and enter it|:cr <string>|broot
+create file|:touch <string>|broot
+remove file or directory|:rm <string>|broot
+delete lines containing string|:g/<string>/d|nvim commands
+open lazygit|<leader>lg|nvim normal mode
+open telescope file finder|<leader>ff|nvim normal mode
+open telescope live grep|<leader>fg|nvim normal mode
+open telescope buffers list|<leader>fb|nvim normal mode
+select whole line|Shift-v|nvim visual mode
+toggle comments|gc|nvim visual mode
+previous buffer|:bp|nvim commands
+next buffer|:bn|nvim commands

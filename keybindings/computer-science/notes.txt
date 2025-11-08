@@ -53,6 +53,7 @@ save and quit|:wq|nvim commands
 save to filename|:w FILENAME|nvim commands
 open help|:help|nvim commands
 execute external command|:!{command}|nvim commands
+run stylua on current file|:!stylua %|nvim commands
 retrieve contents of a file|:r FILENAME|nvim commands
 retrieve contents of external command|:r !{command}|nvim commands
 set option|:set {option}|nvim commands
@@ -92,6 +93,8 @@ open lazygit|<leader>lg|nvim normal mode
 open telescope file finder|<leader>ff|nvim normal mode
 open telescope live grep|<leader>fg|nvim normal mode
 open telescope buffers list|<leader>fb|nvim normal mode
+copy file path to clipboard|<leader>cp|nvim normal mode
+copy file name to clipboard|<leader>cf|nvim normal mode
 select whole line|Shift-v|nvim visual mode
 toggle comments|gc|nvim visual mode
 previous buffer|:bp|nvim commands

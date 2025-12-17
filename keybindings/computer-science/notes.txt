@@ -80,6 +80,10 @@ move cursor up|k|nvim motions
 move cursor left|h|nvim motions
 move cursor right|l|nvim motions
 go to start of the next word|w|nvim motions
+go to next occurrence of character on line|f{char}|nvim motions
+go to previous occurrence of character on line|F{char}|nvim motions
+go to before next occurrence of character on line|t{char}|nvim motions
+go to after previous occurrence of character on line|T{char}|nvim motions
 go back to next word beginning|b|nvim motions
 go to the end of the current word|e|nvim motions
 go to the end of the line|$|nvim motions

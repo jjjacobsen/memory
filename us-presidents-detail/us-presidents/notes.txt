@@ -51,7 +51,7 @@ Andrew Jackson|vetoed a bill to reauthorize the Second Bank of the U.S.|(1832)
 Andrew Jackson|is the only president to pay off the national debt|Achieved in 1835, lasted only one year
 Andrew Jackson|survived an assassination attempt because the assailant's pistols both misfired|(1835)
 Andrew Jackson|had a bullet lodged near his heart for 40 years|From 1806 duel with Charles Dickinson
-Andrew Jackson|adopted two Native American boys|Despite his harsh Indian policies
+Andrew Jackson|adopted two Native American boys|
 Andrew Jackson|his inauguration party trashed the White House|20,000 uninvited guests, had to escape through window
 Andrew Jackson|co-founded the Democratic Party with Martin Van Buren|
 Martin Van Buren|co-founded the Democratic Party with Andrew Jackson|
@@ -59,7 +59,6 @@ Martin Van Buren|is the only president to have spoken English as a second langua
 Martin Van Buren|resolved the Petticoat affair by resigning as Secretary of State|One of Andrew Jackson's cabinet members married a woman, "Peggy", who was still in mourning. This caused lots of drama, other wives rejected her, and by resigning Jackson could reorganize his cabinet
 Martin Van Buren|faced the panic of 1837|Lost popularity due to his failure of a response
 Martin Van Buren|coined the term "OK"|From his nickname "Old Kinderhook"
-Martin Van Buren|ran for president on three different party tickets|Democrat, Free Soil, and considered for Republican
 William Henry Harrison|had the shortest presidency in U.S. history (31 days)|Served from March 4 to April 4, 1841
 William Henry Harrison|was the first president to die in office|Delivered the longest inaugural address in U.S. history and got pneumonia. Triggered brief constitutional crisis since presidential succession was not fully defined then in the U.S. Constitution
 William Henry Harrison|was the last president born as a British subject in the Thirteen Colonies|
@@ -89,7 +88,7 @@ Zachary Taylor|was the last to be born before the adoption of the U.S. Constitut
 Zachary Taylor|was the first president to be elected without having previously held political office|Career military officer with no political experience
 Zachary Taylor|never voted before becoming president|Career military man
 Zachary Taylor|opposed the expansion of slavery despite owning slaves|Caused tension with the South
-Millard Fillmore|was the last to be neither a Democrat nor a Republican|He was a Whig
+Millard Fillmore|was the last to be neither a Democrat nor a Republican|Whig
 Millard Fillmore|was instrumental in passing the Compromise of 1850|Defused tensions between slave and free states in years leading up to the Civil War. Centered on how to handle slavery in recently acquired territories from the Mexican-American War
 Millard Fillmore|backed the Perry Expedition which opened trade in Japan|(1852 - 1853)
 Millard Fillmore|helped found and was chancellor of the University of Buffalo|
@@ -98,16 +97,16 @@ Franklin Pierce|signed the Kansas-Nebraska Act|(1854) Created the territories of
 Franklin Pierce|signed the Gadsden Purchase|(1854) Sale of southern Arizona and southwest New Mexico from Mexico to the U.S. for a railroad route
 Franklin Pierce|saw his 11-year-old son killed in a train wreck|Two months before inauguration
 Franklin Pierce|was arrested for running over a woman with his horse|While president, charges dropped
-James Buchanan|intervened in the Supreme Court's decision of the Dred Scott case|(1857) This decision held the U.S. Constitution did not extend citizenship to people of black African descent. Widely considered the worst Supreme Court decision in history. Buchanan was friends with a judge, knew the result before it was announced, and pressured another judge
+James Buchanan|intervened in the Supreme Court's decision of the Dred Scott case|(1857) This decision held the U.S. Constitution did not extend citizenship to blacks. Buchanan was friends with a judge, knew the result before it was announced, and pressured another judge
 James Buchanan|had extremely poor leadership leading up to the Civil War|Failed to address secession crisis effectively
 James Buchanan|was the only lifelong bachelor president|
 James Buchanan|sent the military to Utah|"Utah War" against Mormons (1857-1858)
 James Buchanan|is consistently ranked as the worst president|Failed to prevent Civil War
 Abraham Lincoln|led the U.S. through the American Civil War, preserving the Union|(1861-1865) Defeated the Confederate States of America
-Abraham Lincoln|reached a national audience in debates against Stephen A. Douglas|Seven debates in 1858 Illinois Senate race, focused on slavery
+Abraham Lincoln|reached a national audience in debates against Stephen A. Douglas|Seven debates in 1858 Illinois Senate race
 Abraham Lincoln|issued the Emancipation Proclamation|(1863)
 Abraham Lincoln|delivered the Gettysburg Address|(1863)
-Abraham Lincoln|promoted the Thirteenth Amendment to the U.S. Constitution|(1865) Abolished slavery and involuntary servitude
+Abraham Lincoln|promoted the Thirteenth Amendment to the U.S. Constitution|(1865) Abolished slavery and involuntary servitude, except as punishment for a crime
 Abraham Lincoln|signed the Homestead Act|(1862)
 Abraham Lincoln|signed the Pacific Railway Acts|(1862)
 Abraham Lincoln|established Thanksgiving as a national holiday|(1863)
@@ -135,7 +134,7 @@ Ulysses S. Grant|received a speeding ticket on his horse|While president in D.C.
 Ulysses S. Grant|appears on the $50 bill|Since 1913
 Rutherford B. Hayes|won presidency via the Compromise of 1877|Also known as the "Corrupt Bargain," an unwritten political deal to settle the disputed 1876 election. Ended the filibuster of certified results and threat of political violence in exchange for an end to federal Reconstruction and military occupation of the former Confederacy
 Rutherford B. Hayes|resolved the Great Upheaval by calling in the U.S. Army against the railroad workers|(1877) Commonly known as the Great Railroad Strike of 1877. Began after wages were cut for the third time in a year, and remains the deadliest conflict between workers and strikebreakers in American history
-Rutherford B. Hayes|began civil service reform|Fought the spoils system and political patronage
+Rutherford B. Hayes|advanced civil service reform|Fought the spoils system and political patronage
 Rutherford B. Hayes|restored gold standard after the Civil War|Allowed redemption of greenbacks for gold starting in 1879
 Rutherford B. Hayes|banned alcohol from the White House|His wife was called "Lemonade Lucy"
 Rutherford B. Hayes|started the tradition of the White House Easter Egg Roll|(1878)
@@ -175,7 +174,6 @@ Theodore Roosevelt|coined the term "bully pulpit"|Referring to the presidency's 
 Theodore Roosevelt|survived an assassination attempt and finished his speech|(1912) Bullet lodged in his chest after hitting his eyeglass case and speech manuscript
 Theodore Roosevelt|created the Bull Moose Party|Progressive Party formed after Republican nomination loss in 1912
 Theodore Roosevelt|was the first president to fly in an airplane|(1910) After leaving office
-Theodore Roosevelt|invited Booker T. Washington to dine at the White House|(1901) First African American to dine with a president
 Theodore Roosevelt|established the U.S. Forest Service|(1905)
 Theodore Roosevelt|negotiated the construction of the Panama Canal|After supporting Panamanian independence from Colombia
 Theodore Roosevelt|won the Medal of Honor posthumously|(2001) For his actions in the Spanish-American War
@@ -183,7 +181,7 @@ William Howard Taft|was the only president to serve as Chief Justice|Appointed t
 William Howard Taft|was the heaviest president|Weighed over 300 pounds
 William Howard Taft|threw out the first ceremonial pitch|At a baseball game in 1910
 William Howard Taft|got stuck in the White House bathtub|Had a larger one installed that could fit four men
-William Howard Taft|established the federal income tax system|16th Amendment ratified during his presidency
+William Howard Taft|presided over ratification of the 16th Amendment|Authorized federal income tax
 William Howard Taft|admitted Arizona and New Mexico as states|(1912) Completed the continental United States
 Woodrow Wilson|won the Nobel Peace Prize for founding the League of Nations|(1919)
 Woodrow Wilson|led the nation through World War I|(1917-1918)
@@ -209,13 +207,11 @@ Herbert Hoover|was a successful mining engineer before politics|Made millions in
 Herbert Hoover|organized relief efforts during WWI|Fed millions of Europeans as head of relief commission
 Herbert Hoover|signed the Smoot-Hawley Tariff|(1930) Worsened the Great Depression
 Herbert Hoover|ordered the Army to clear the Bonus Army|(1932) WWI veterans demanding early bonus payment
-Herbert Hoover|lived the longest post-presidency|31 years, 230 days after leaving office
 Herbert Hoover|was the first president born west of the Mississippi|Born in Iowa
 Franklin D. Roosevelt|was elected to four terms|Only president to serve more than two terms
 Franklin D. Roosevelt|led the nation through the Great Depression and WWII|New Deal programs and wartime leadership
 Franklin D. Roosevelt|established Social Security|(1935) Created the social safety net
 Franklin D. Roosevelt|ordered Japanese American internment|(1942) Executive Order 9066
-Franklin D. Roosevelt|appointed the first woman to the Cabinet|Frances Perkins as Secretary of Labor
 Franklin D. Roosevelt|died in office during his fourth term|(1945) At Warm Springs, Georgia
 Franklin D. Roosevelt|was paralyzed from the waist down|Due to polio contracted in 1921
 Franklin D. Roosevelt|held "fireside chats" on radio|30 evening radio addresses to the nation
@@ -226,7 +222,7 @@ Harry S. Truman|implemented the Marshall Plan|(1948) Rebuilt Europe after WWII
 Harry S. Truman|recognized Israel within minutes of its declaration|(1948)
 Harry S. Truman|desegregated the military|Executive Order 9981 in 1948
 Harry S. Truman|fired General Douglas MacArthur|(1951) For insubordination during Korean War
-Harry S. Truman|survived an assassination attempt by Puerto Rican nationalists at Blair House|(1950) By Puerto Rican nationalists at Blair House
+Harry S. Truman|survived an assassination attempt by Puerto Rican nationalists at Blair House|(1950)
 Harry S. Truman|established the CIA and NSA|National Security Act of 1947
 Harry S. Truman|initiated the Berlin Airlift|(1948-1949) Supplied West Berlin during Soviet blockade
 Harry S. Truman|had the lowest approval rating ever recorded|22% in 1952
@@ -249,14 +245,13 @@ John F. Kennedy|authorized the failed Bay of Pigs invasion|(1961) Attempt to ove
 John F. Kennedy|signed the Nuclear Test Ban Treaty|(1963) With UK and Soviet Union
 John F. Kennedy|won a Pulitzer Prize|For "Profiles in Courage"
 John F. Kennedy|had Addison's disease|Kept his health problems secret
-Lyndon B. Johnson|signed the Civil Rights Act of 1964|Landmark anti-discrimination legislation
+Lyndon B. Johnson|signed the Civil Rights Act of 1964|
 Lyndon B. Johnson|signed the Voting Rights Act of 1965|Protected African American voting rights
 Lyndon B. Johnson|escalated the Vietnam War|Increased troops from 16,000 to 500,000
 Lyndon B. Johnson|launched the "War on Poverty"|Created Medicare, Medicaid, Head Start
 Lyndon B. Johnson|signed the Immigration Act of 1965|Ended national origin quotas
 Lyndon B. Johnson|withdrew from the 1968 presidential race|Due to Vietnam War opposition
 Lyndon B. Johnson|was sworn in aboard Air Force One|After Kennedy's assassination
-Lyndon B. Johnson|appointed the first African American Supreme Court Justice|Thurgood Marshall in 1967
 Lyndon B. Johnson|signed the Gun Control Act of 1968|First major federal gun control law
 Richard Nixon|was the only president to resign from office|(1974) Due to Watergate scandal
 Richard Nixon|opened relations with China|(1972) Historic visit to Beijing
@@ -266,7 +261,7 @@ Richard Nixon|initiated détente with the Soviet Union|SALT I treaty and reduced
 Richard Nixon|implemented the Southern Strategy|Appealed to white Southern voters
 Richard Nixon|took the U.S. off the gold standard|(1971) Ended Bretton Woods system
 Richard Nixon|was pardoned by Gerald Ford|(1974) For any crimes committed in office
-Richard Nixon|appointed four Supreme Court justices|Including the first two women considered
+Richard Nixon|appointed four Supreme Court justices|
 Gerald Ford|was the only unelected president|Appointed VP, then became president
 Gerald Ford|pardoned Richard Nixon|(1974) Controversial "full, free, and absolute pardon"
 Gerald Ford|survived two assassination attempts|(1975) Both in California within weeks
@@ -274,7 +269,6 @@ Gerald Ford|was an Eagle Scout|Only president to achieve this rank
 Gerald Ford|presided over the fall of Saigon|(1975) End of Vietnam War
 Gerald Ford|signed the Helsinki Accords|(1975) Recognized post-WWII European borders
 Gerald Ford|was a star football player at Michigan|Turned down NFL offers
-Gerald Ford|appointed the first female White House photographer|
 Jimmy Carter|brokered the Camp David Accords|(1978) Peace between Israel and Egypt
 Jimmy Carter|faced the Iran hostage crisis|444 days, ended on Reagan's inauguration day
 Jimmy Carter|established the Department of Energy and Education|(1977 and 1979)
@@ -285,9 +279,7 @@ Jimmy Carter|was attacked by a rabbit while fishing|(1979) "Killer rabbit" incid
 Jimmy Carter|won the Nobel Peace Prize for post-presidency humanitarian work|(2002)
 Jimmy Carter|built homes with Habitat for Humanity|Most active post-presidency
 Jimmy Carter|lived to age 100|Longest-lived president
-Ronald Reagan|survived an assassination attempt by John Hinckley Jr.|(1981) Shot by John Hinckley Jr.
-Ronald Reagan|appointed the first woman Supreme Court Justice|Sandra Day O'Connor in 1981
-Ronald Reagan|was the oldest elected president|Age 69 at first inauguration, 73 at second
+Ronald Reagan|survived an assassination attempt by John Hinckley Jr.|(1981)
 Ronald Reagan|was a Hollywood actor before politics|Appeared in over 50 films
 Ronald Reagan|said "Mr. Gorbachev, tear down this wall"|(1987) At Brandenburg Gate
 Ronald Reagan|fired air traffic controllers|(1981) 11,000 PATCO strikers
@@ -304,14 +296,13 @@ George H. W. Bush|pardoned Iran-Contra figures|Six pardons on Christmas Eve 1992
 George H. W. Bush|was former CIA Director|Only president with intelligence background
 George H. W. Bush|vomited on Japanese Prime Minister|(1992) During state dinner
 George H. W. Bush|signed NAFTA negotiations|Completed by Clinton
-Bill Clinton|was impeached but acquitted|(1998) For perjury and obstruction
+Bill Clinton|was impeached for perjury but acquitted|(1998) For perjury and obstruction
 Bill Clinton|presided over the longest peacetime economic expansion|1990s boom years
 Bill Clinton|signed welfare reform|(1996) "End welfare as we know it"
-Bill Clinton|balanced the federal budget|First surpluses since 1969
+Bill Clinton|is the only modern president with budget surpluses|First surpluses since 1969
 Bill Clinton|signed NAFTA into law|(1993) North American Free Trade Agreement
 Bill Clinton|ordered NATO bombing of Yugoslavia|(1999) Kosovo War
 Bill Clinton|played the saxophone on Arsenio Hall Show|(1992) During campaign
-Bill Clinton|appointed the second woman Supreme Court Justice|Ruth Bader Ginsburg in 1993
 Bill Clinton|established AmeriCorps|(1993) National service program
 Bill Clinton|was a Rhodes Scholar|At Oxford University
 George W. Bush|led response to 9/11 attacks|(2001) War on Terror
@@ -321,10 +312,9 @@ George W. Bush|created Department of Homeland Security|(2002)
 George W. Bush|signed Medicare Part D|Prescription drug benefit for seniors
 George W. Bush|responded to Hurricane Katrina|(2005) Widely criticized response
 George W. Bush|signed the Patriot Act|(2001) Expanded surveillance powers
-George W. Bush|bailed out banks during financial crisis|(2008) TARP program
+George W. Bush|authorized TARP bank bailout|First modern financial rescue
 George W. Bush|had shoes thrown at him in Iraq|(2008) Ducked both shoes
 George W. Bush|was a former owner of Texas Rangers baseball team|Before becoming governor
-Barack Obama|was the first African American president|Historic 2008 election
 Barack Obama|signed the Affordable Care Act|(2010) "Obamacare" healthcare reform
 Barack Obama|ordered the killing of Osama bin Laden|(2011) Navy SEAL raid in Pakistan
 Barack Obama|won the Nobel Peace Prize despite serving less than a year|(2009)
@@ -333,12 +323,11 @@ Barack Obama|normalized relations with Cuba|(2014) Ended 50+ year embargo
 Barack Obama|signed Dodd-Frank financial reform|(2010) Response to 2008 crisis
 Barack Obama|legalized same-sex marriage nationwide|Through Supreme Court case Obergefell v. Hodges (2015)
 Barack Obama|was born in Hawaii|First president born outside continental U.S.
-Barack Obama|was a constitutional law professor|At University of Chicago
 Barack Obama|authorized record number of drone strikes|Controversial counterterrorism tactic
 Donald Trump|was impeached twice|(2019 and 2021) Acquitted both times
 Donald Trump|had no prior political or military experience|First president with neither
 Donald Trump|was indicted on criminal charges|First former president indicted (2023)
-Donald Trump|appointed three Supreme Court justices|Shifted court conservative for generation
+Donald Trump|appointed three Supreme Court justices in one term|Shifted court conservative for generation
 Donald Trump|moved U.S. embassy to Jerusalem|(2018)
 Donald Trump|met with North Korean leader Kim Jong Un|(2018) First sitting president to do so
 Donald Trump|was banned from social media platforms|(2021) After January 6 Capitol attack
@@ -350,7 +339,6 @@ Donald Trump|was the oldest president ever inaugurated|Age 78 at inauguration
 Joe Biden|withdrew from Afghanistan|(2021) Ended 20-year war
 Joe Biden|signed the Infrastructure Investment and Jobs Act|(2021) $1.2 trillion package
 Joe Biden|led NATO response to Russian invasion of Ukraine|(2022)
-Joe Biden|appointed first Black woman Supreme Court Justice|Ketanji Brown Jackson in 2022
 Joe Biden|signed the CHIPS and Science Act|(2022) Boost semiconductor manufacturing
 Joe Biden|signed the Inflation Reduction Act|(2022) Climate and healthcare provisions
 Joe Biden|served in Senate for 36 years|One of longest Senate careers

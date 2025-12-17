@@ -59,6 +59,7 @@ retrieve contents of external command|:r !{command}|nvim commands
 set option|:set {option}|nvim commands
 command completion|<C-d> OR <Tab>|nvim commands
 search for phrase top down|/{phrase}<Enter>|nvim search
+case-insensitive search|/\\c{phrase}<Enter>|nvim search
 search for phrase bottom up|?{phrase}<Enter>|nvim search
 search for same phrase again|n|nvim search
 search for same phrase in the opposite direction|N|nvim search

@@ -264,7 +264,6 @@ Richard Nixon|initiated détente with the Soviet Union|SALT I treaty and reduced
 Richard Nixon|implemented the Southern Strategy|Appealed to white Southern voters
 Richard Nixon|took the U.S. off the gold standard|(1971) Ended Bretton Woods system
 Richard Nixon|was pardoned by Gerald Ford|(1974) For any crimes committed in office
-Richard Nixon|appointed four Supreme Court justices|
 Gerald Ford|was the only unelected president|Appointed VP, then became president
 Gerald Ford|pardoned Richard Nixon|(1974) Controversial "full, free, and absolute pardon"
 Gerald Ford|was first to survive two assassination attempts|(1975) Both in California within weeks
@@ -329,7 +328,6 @@ Barack Obama|authorized record number of drone strikes|Controversial counterterr
 Donald Trump|was impeached twice|(2019 and 2021) Acquitted both times
 Donald Trump|had no prior political or military experience|First president with neither
 Donald Trump|was indicted on criminal charges|First former president indicted (2023)
-Donald Trump|appointed three Supreme Court justices in one term|Shifted court conservative for generation
 Donald Trump|moved U.S. embassy to Jerusalem|(2018)
 Donald Trump|met with North Korean leader Kim Jong Un|(2018) First sitting president to do so
 Donald Trump|was banned from social media platforms|(2021) After January 6 Capitol attack

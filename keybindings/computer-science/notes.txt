@@ -9,13 +9,13 @@ switch to next window|<C-b> n|tmux
 switch to previous window|<C-b> p|tmux
 switch to specific window number|<C-b> 0..9|tmux
 split panes left/right|<C-b> %|tmux
-split panes top/bottom|<C-b> "|tmux
+split panes top/bottom|<C-b> <double-quote>|tmux
 move between panes|<C-b> <hjkl>|tmux
 close a pane|<C-b> x|tmux
 enter copy mode|<C-b> [|tmux
 select line in copy mode|V|tmux
 copy selected text in copy mode to tmux buffer|<Enter>|tmux
-search for text under directory|rg "some text" /some/path|rg
+search for text under directory|rg <double-quote>some text<double-quote> /some/path|rg
 search for filename under directory (fuzzy match)|fd filename /some/path|fd
 undo|u|nvim normal mode
 delete character under cursor|x|nvim normal mode
@@ -129,10 +129,10 @@ delete surround|ds{char}|nvim surround
 change surround|cs{target}{replacement}|nvim surround
 surround inner word with parentheses (no spaces)|ysiw)|nvim surround
 surround inner word with parentheses (adds spaces)|ysiw(|nvim surround
-surround from cursor to end of line with double quotes|ys$"|nvim surround
+surround from cursor to end of line with double quotes|ys$<double-quote>|nvim surround
 delete ] surround|ds]|nvim surround
 delete tag surround|dst|nvim surround
-change single quotes to double quotes|cs'"|nvim surround
+change single quotes to double quotes|cs<single-quote><double-quote>|nvim surround
 change surrounding tag to h1|csth1<CR>|nvim surround
 delete function-call surround|dsf|nvim surround
 add surround from visual mode|S (visual mode)|nvim surround

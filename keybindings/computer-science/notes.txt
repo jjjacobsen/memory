@@ -25,7 +25,7 @@ put buffer text after the cursor|p|nvim normal mode
 put buffer text before the cursor|P|nvim normal mode
 replace character|r|nvim normal mode
 replace mode|R|nvim normal mode
-jump to line in file|{count}G|nvim normal mode
+jump to line in file|{count}G or :{count}|nvim normal mode
 jump to bottom of the file|G|nvim normal mode
 jump to start of the file|gg|nvim normal mode
 scroll view down one line|<C-e>|nvim normal mode
@@ -59,7 +59,6 @@ run stylua on current file|:!stylua %|nvim commands
 retrieve contents of a file and insert into current buffer|:r FILENAME|nvim commands
 retrieve contents of external command and insert into current buffer|:r !{command}|nvim commands
 set option|:set {option}|nvim commands
-jump to line in file|:{count}|nvim commands
 command completion|<C-d> or <Tab>|nvim commands
 search for phrase top down|/{phrase}<Enter>|nvim search
 case-insensitive search|/\c{phrase}<Enter>|nvim search

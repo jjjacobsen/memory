@@ -124,6 +124,18 @@ clear highlights|<leader>h|nvim normal mode
 toggle hidden files|.|oil
 select whole line|V|nvim visual mode
 toggle comments|gc|nvim visual mode
+add surround (motion + delimiter)|ys{motion}{char}|nvim surround
+delete surround|ds{char}|nvim surround
+change surround|cs{target}{replacement}|nvim surround
+surround inner word with parentheses (no spaces)|ysiw)|nvim surround
+surround inner word with parentheses (adds spaces)|ysiw(|nvim surround
+surround from cursor to end of line with double quotes|ys$"|nvim surround
+delete ] surround|ds]|nvim surround
+delete tag surround|dst|nvim surround
+change single quotes to double quotes|cs'"|nvim surround
+change surrounding tag to h1|csth1<CR>|nvim surround
+delete function-call surround|dsf|nvim surround
+add surround from visual mode|S (visual mode)|nvim surround
 start recording macro|q{register}|nvim macros
 stop recording macro|q|nvim macros
 play macro|@{register}|nvim macros

@@ -1,0 +1,5 @@
+drwxr-xr-x|d -> directory;rwx -> owner (7);r-x -> group (5);r-x -> others (5);Octal: 755
+Login Shell|A shell started when a user logs into the system;Reads login startup files such as /etc/profile, ~/.profile, ~/.bash_profile, and ~/.zprofile
+Interactive Shell|A shell that accepts user input from a terminal;Usually shows a prompt and reads ~/.bashrc or ~/.zshrc
+Non-interactive Shell|A shell running a script or command without a prompt;Does not read interactive config files by default
+exec in a shell|Replaces the current shell process with another program (no new PID)

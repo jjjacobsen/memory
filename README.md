@@ -6,14 +6,6 @@ Welcome to **Memory**, a simple Git repository for organizing and managing data 
 
 This repository stores notes in a structured format that's easy to read, edit, and import into Anki. The primary goal is to leverage version control for my learning materials, making it simple to track changes and collaborate if needed.
 
-## ✨ Features
-
-- **Easy Editing**: Use your favorite IDE to add or modify notes.
-- **Anki-Compatible Format**: Notes are stored in pipe-separated format ready for Anki import.
-- **Version Control**: Track changes to your notes over time with Git.
-- **Organized Structure**: Notes grouped by deck/topic for better management.
-- **Documentation**: Each note type includes field definitions and card templates.
-
 ## 📝 Usage
 
 ### Repository Structure
@@ -72,14 +64,3 @@ Number|Name|Term|Party|State
     - Make sure to disable `Allow HTML in fields`
     - Avoid using `'` and `"`. The import gets weird
 5. Apply card templates as described in `cards.md`.
-
-## 🤝 Contributing
-
-Feel free to fork and submit pull requests! When adding new content:
-- Follow existing format conventions for each note type
-- Use consistent pipe separation
-- Maintain clear, factual content
-- Update documentation files (`fields.md`, `cards.md`) when creating new note types
-- Keep field definitions clear and card templates well-documented
-
-Happy learning! 🚀

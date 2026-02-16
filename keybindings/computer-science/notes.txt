@@ -30,6 +30,8 @@ jump to bottom of the file|G|nvim normal mode
 jump to start of the file|gg|nvim normal mode
 scroll view down one line|<C-e>|nvim normal mode
 scroll view up one line|<C-y>|nvim normal mode
+scroll up with cursor|<C-k>|nvim normal mode
+scroll down with cursor|<C-j>|nvim normal mode
 scroll view down half a screen|<C-d>|nvim normal mode
 scroll view up half a screen|<C-u>|nvim normal mode
 scroll view down a full screen|<C-f>|nvim normal mode
@@ -44,6 +46,8 @@ insert a line below the cursor|o|nvim normal mode
 insert a line above the cursor|O|nvim normal mode
 jump from one window to another|<C-w><C-w>|nvim normal mode
 prefix to yank to system clipboard|"+|nvim normal mode
+yank line contents|Y|nvim normal mode
+yank from cursor to end of line|U|nvim normal mode
 quit|:q|nvim commands
 quit without saving|:q!|nvim commands
 save|:w|nvim commands
@@ -93,13 +97,32 @@ create file|:touch <string>|broot
 remove file or directory|:rm <string>|broot
 delete lines containing string|:g/<string>/d|nvim commands
 open lazygit|<leader>lg|nvim normal mode
+open lazy|<leader>la|nvim normal mode
+open oil|<leader>o|nvim normal mode
+show dashboard|<leader>d|nvim normal mode
 open telescope file finder|<leader>ff|nvim normal mode
+open telescope all files finder|<leader>fa|nvim normal mode
 open telescope live grep|<leader>fg|nvim normal mode
+open telescope live grep all|<leader>ga|nvim normal mode
 search workspace for symbols|<leader>ss|nvim normal mode
 search document for symbols|<leader>sd|nvim normal mode
 open telescope buffers list|<leader>fb|nvim normal mode
+open telescope help tags|<leader>fh|nvim normal mode
+resume telescope picker|<leader>fr|nvim normal mode
+go to definition|gd|nvim normal mode
+find references|gr|nvim normal mode
+go to implementation|gi|nvim normal mode
+go to type definition|gD|nvim normal mode
+switch to alternate buffer|<leader>`|nvim normal mode
 copy file path to clipboard|<leader>cp|nvim normal mode
+copy relative file path to clipboard|<leader>cr|nvim normal mode
 copy file name to clipboard|<leader>cf|nvim normal mode
+create parent directories for file|<leader>mk|nvim normal mode
+show tab settings|<leader>ts|nvim normal mode
+show diagnostic|<leader>e|nvim normal mode
+clear all buffers|<leader>bc|nvim normal mode
+clear highlights|<leader>h|nvim normal mode
+toggle hidden files|.|oil
 select whole line|V|nvim visual mode
 toggle comments|gc|nvim visual mode
 start recording macro|q{register}|nvim macros

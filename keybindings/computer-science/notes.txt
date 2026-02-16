@@ -1,22 +1,22 @@
 list sessions|tmux ls|tmux
 start a new session|tmux new -s mysession|tmux
 attach to a session|tmux attach -t mysession|tmux
-detach from a session|Ctrl-b d|tmux
+detach from a session|<C-b> d|tmux
 kill a session|tmux kill-session -t mysession|tmux
-new window|Ctrl-b c|tmux
-close current window|Ctrl-b &|tmux
-switch to new window|Ctrl-b n|tmux
-switch to previous window|Ctrl-b p|tmux
-switch to specific window number|Ctrl-b <number>|tmux
-split panes vertically|Ctrl-b %|tmux
-split panes horizontally|Ctrl-b “|tmux
-move between panes|Ctrl-b <hjkl>|tmux
-close a pane|Ctrl-b x|tmux
-enter copy mode|Ctrl-b [|tmux
-select line of text in copy mode|Ctrl-v|tmux
-copy selected text in copy mode to clipboard|enter|tmux
-rg “some text” /some/path|search for “some text” under directory|rg
-fd filename /some/path|search for filename under directory (does not need to be an exact string match)|fd
+new window|<C-b> c|tmux
+close current window|<C-b> &|tmux
+switch to next window|<C-b> n|tmux
+switch to previous window|<C-b> p|tmux
+switch to specific window number|<C-b> 0..9|tmux
+split panes left/right|<C-b> %|tmux
+split panes top/bottom|<C-b> "|tmux
+move between panes|<C-b> <hjkl>|tmux
+close a pane|<C-b> x|tmux
+enter copy mode|<C-b> [|tmux
+select line in copy mode|V|tmux
+copy selected text in copy mode to tmux buffer|<Enter>|tmux
+search for text under directory|rg "some text" /some/path|rg
+search for filename under directory (fuzzy match)|fd filename /some/path|fd
 undo|u|nvim normal mode
 delete character under cursor|x|nvim normal mode
 delete whole line|dd|nvim normal mode
@@ -43,7 +43,7 @@ insert at end of line|A|nvim normal mode
 insert a line below the cursor|o|nvim normal mode
 insert a line above the cursor|O|nvim normal mode
 jump from one window to another|<C-w><C-w>|nvim normal mode
-prefix to yank to clipboard|“+|nvim normal mode
+prefix to yank to system clipboard|"+|nvim normal mode
 quit|:q|nvim commands
 quit without saving|:q!|nvim commands
 save|:w|nvim commands
@@ -56,7 +56,7 @@ retrieve contents of a file and insert into current buffer|:r FILENAME|nvim comm
 retrieve contents of external command and insert into current buffer|:r !{command}|nvim commands
 set option|:set {option}|nvim commands
 jump to line in file|:{count}|nvim commands
-command completion|<C-d> OR <Tab>|nvim commands
+command completion|<C-d> or <Tab>|nvim commands
 search for phrase top down|/{phrase}<Enter>|nvim search
 case-insensitive search|/\c{phrase}<Enter>|nvim search
 search for same phrase again|n|nvim search
@@ -68,7 +68,7 @@ first match in line|:s/old/new/|nvim substitute
 all occurrences in line|:s/old/new/g|nvim substitute
 every occurrence between two lines|:#,#s/old/new/g|nvim substitute
 every occurrence in whole file|:%s/old/new/g|nvim substitute
-to ask for confirmation each time|:%s/old/new/gc|nvim substitute
+ask for confirmation each time|:%s/old/new/gc|nvim substitute
 delete|d|nvim operators
 change|c|nvim operators
 visual selection|v|nvim operators
@@ -82,10 +82,10 @@ go to next occurrence of character on line|f{char}|nvim motions
 go to previous occurrence of character on line|F{char}|nvim motions
 go to before next occurrence of character on line|t{char}|nvim motions
 go to after previous occurrence of character on line|T{char}|nvim motions
-go back to next word beginning|b|nvim motions
+go back to previous word beginning|b|nvim motions
 go to the end of the current word|e|nvim motions
 go to the end of the line|$|nvim motions
-repeats the motion that many times|numbers|nvim motions
+repeat a motion with a count|{count}{motion}|nvim motions
 move to start of line|0|nvim motions
 print tree and exit broot|:pt|broot
 create file and enter it|:cr <string>|broot
@@ -100,7 +100,7 @@ search document for symbols|<leader>sd|nvim normal mode
 open telescope buffers list|<leader>fb|nvim normal mode
 copy file path to clipboard|<leader>cp|nvim normal mode
 copy file name to clipboard|<leader>cf|nvim normal mode
-select whole line|Shift-v|nvim visual mode
+select whole line|V|nvim visual mode
 toggle comments|gc|nvim visual mode
 start recording macro|q{register}|nvim macros
 stop recording macro|q|nvim macros

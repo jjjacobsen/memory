@@ -69,6 +69,8 @@ Number|Name|Term|Party|State
 2. Copy the `notes.txt` file you want to import.
 3. Import via Anki's File > Import feature.
 4. Map fields appropriately during import using the `fields.md` documentation.
+    - Make sure to disable `Allow HTML in fields`
+    - Avoid using `'` and `"`. The import gets weird
 5. Apply card templates as described in `cards.md`.
 
 ## 🤝 Contributing

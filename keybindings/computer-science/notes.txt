@@ -11,22 +11,20 @@ switch to specific window number|Ctrl-b <number>|tmux
 split panes vertically|Ctrl-b %|tmux
 split panes horizontally|Ctrl-b “|tmux
 move between panes|Ctrl-b <hjkl>|tmux
-resize panes|opt <arrow keys>|tmux
 close a pane|Ctrl-b x|tmux
-turn status bar on or off|Ctrl-b :set -g status on/off|tmux
 enter copy mode|Ctrl-b [|tmux
+select line of text in copy mode|Ctrl-v|tmux
+copy selected text in copy mode to clipboard|enter|tmux
 rg “some text” /some/path|search for “some text” under directory|rg
-fd filename /some/path|search for filename under directory|fd
+fd filename /some/path|search for filename under directory (does not need to be an exact string match)|fd
 undo|u|nvim normal mode
 delete character under cursor|x|nvim normal mode
 delete whole line|dd|nvim normal mode
-undo a whole line|U|nvim normal mode
 redo|<C-r>|nvim normal mode
 put buffer text after the cursor|p|nvim normal mode
 put buffer text before the cursor|P|nvim normal mode
 replace character|r|nvim normal mode
 replace mode|R|nvim normal mode
-show location in a file and file status|<C-g>|nvim normal mode
 jump to line in file|{count}G|nvim normal mode
 jump to bottom of the file|G|nvim normal mode
 jump to start of the file|gg|nvim normal mode
@@ -54,13 +52,13 @@ save to filename|:w FILENAME|nvim commands
 open help|:help|nvim commands
 execute external command|:!{command}|nvim commands
 run stylua on current file|:!stylua %|nvim commands
-retrieve contents of a file|:r FILENAME|nvim commands
-retrieve contents of external command|:r !{command}|nvim commands
+retrieve contents of a file and insert into current buffer|:r FILENAME|nvim commands
+retrieve contents of external command and insert into current buffer|:r !{command}|nvim commands
 set option|:set {option}|nvim commands
+jump to line in file|:{count}|nvim commands
 command completion|<C-d> OR <Tab>|nvim commands
 search for phrase top down|/{phrase}<Enter>|nvim search
-case-insensitive search|/\\c{phrase}<Enter>|nvim search
-search for phrase bottom up|?{phrase}<Enter>|nvim search
+case-insensitive search|/\c{phrase}<Enter>|nvim search
 search for same phrase again|n|nvim search
 search for same phrase in the opposite direction|N|nvim search
 go back to where you came from|<C-o>|nvim search
@@ -89,7 +87,7 @@ go to the end of the current word|e|nvim motions
 go to the end of the line|$|nvim motions
 repeats the motion that many times|numbers|nvim motions
 move to start of line|0|nvim motions
-print tree for next command|:pt|broot
+print tree and exit broot|:pt|broot
 create file and enter it|:cr <string>|broot
 create file|:touch <string>|broot
 remove file or directory|:rm <string>|broot
@@ -97,13 +95,13 @@ delete lines containing string|:g/<string>/d|nvim commands
 open lazygit|<leader>lg|nvim normal mode
 open telescope file finder|<leader>ff|nvim normal mode
 open telescope live grep|<leader>fg|nvim normal mode
+search workspace for symbols|<leader>ss|nvim normal mode
+search document for symbols|<leader>sd|nvim normal mode
 open telescope buffers list|<leader>fb|nvim normal mode
 copy file path to clipboard|<leader>cp|nvim normal mode
 copy file name to clipboard|<leader>cf|nvim normal mode
 select whole line|Shift-v|nvim visual mode
 toggle comments|gc|nvim visual mode
-previous buffer|:bp|nvim commands
-next buffer|:bn|nvim commands
 start recording macro|q{register}|nvim macros
 stop recording macro|q|nvim macros
 play macro|@{register}|nvim macros

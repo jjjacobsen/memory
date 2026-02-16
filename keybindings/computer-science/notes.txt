@@ -9,13 +9,13 @@ switch to next window|<C-b> n|tmux
 switch to previous window|<C-b> p|tmux
 switch to specific window number|<C-b> 0..9|tmux
 split panes left/right|<C-b> %|tmux
-split panes top/bottom|<C-b> <double-quote>|tmux
+split panes top/bottom|<C-b> "|tmux
 move between panes|<C-b> <hjkl>|tmux
 close a pane|<C-b> x|tmux
 enter copy mode|<C-b> [|tmux
 select line in copy mode|V|tmux
 copy selected text in copy mode to tmux buffer|<Enter>|tmux
-search for text under directory|rg 'some text' /some/path|rg
+search for text under directory|rg "some text" /some/path|rg
 search for filename under directory (fuzzy match)|fd filename /some/path|fd
 undo|u|nvim normal mode
 delete character under cursor|x|nvim normal mode

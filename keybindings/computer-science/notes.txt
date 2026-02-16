@@ -136,6 +136,11 @@ change single quotes to double quotes|cs'"|nvim surround
 change surrounding tag to h1|csth1<CR>|nvim surround
 delete function-call surround|dsf|nvim surround
 add surround from visual mode|S (visual mode)|nvim surround
+flash jump|s|nvim flash (n/x/o modes)
+flash treesitter jump|S|nvim flash (n/x/o modes)
+flash remote|r|nvim flash (operator-pending mode)
+flash treesitter search|R|nvim flash (o/x modes)
+toggle flash search|<C-s>|nvim flash (command-line mode)
 start recording macro|q{register}|nvim macros
 stop recording macro|q|nvim macros
 play macro|@{register}|nvim macros

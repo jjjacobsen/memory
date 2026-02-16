@@ -3,3 +3,38 @@ Login Shell|A shell started when a user logs into the system;Reads login startup
 Interactive Shell|A shell that accepts user input from a terminal;Usually shows a prompt and reads ~/.bashrc or ~/.zshrc
 Non-interactive Shell|A shell running a script or command without a prompt;Does not read interactive config files by default
 exec in a shell|Replaces the current shell process with another program (no new PID)
+Subshell|A child shell started from another shell (for example, with (command) or bash);Runs in a separate process
+Primary group|The default group assigned to a user;Used for files the user creates
+Supplementary group|Additional groups a user belongs to for permission purposes
+usermod -aG group user|Adds a user to a supplementary group (-a appends and -G sets groups)
+groups username|Shows which groups a user belongs to
+/etc/passwd|File containing user account information (username, UID, home directory, shell)
+/etc/shadow|Stores encrypted user passwords and password aging information
+UID|User ID number that uniquely identifies a user
+GID|Group ID number that uniquely identifies a group
+Umask|Default permission mask subtracted from 777 for directories or 666 for files when creating new files
+Setuid bit|File runs with the privileges of the file owner
+Setgid bit|File runs with the group privileges of the file group;On directories, new files inherit the directory group
+Sticky bit|On directories, only the file owner or root can delete files inside (for example, /tmp)
+PID|Process ID, a unique number identifying a running process
+PPID|Parent Process ID, the PID of the process that started this one
+Zombie process|A terminated process whose parent has not collected its exit status
+Daemon|A background process that runs without a controlling terminal
+Foreground process|Process attached to and controlling the terminal
+Signal|A software interrupt sent to a process (for example, SIGTERM or SIGKILL)
+systemctl start|Starts a service immediately;Not persistent across reboot unless enabled
+systemctl enable|Configures a service to start at boot
+Unit file|Configuration file defining how systemd manages a service, socket, mount, or other unit
+Target (systemd)|A grouping of units that defines a system state (similar to runlevels)
+Loopback address|127.0.0.1, the network interface that points to the local machine
+Port|Logical communication endpoint for a service (for example, 22 for SSH)
+Socket|Combination of IP address and port number
+DNS|Domain Name System, translates domain names into IP addresses
+Inode|Data structure storing file metadata (permissions, owner, timestamps, pointers to data blocks)
+Hard link|Another filename pointing to the same inode
+Symbolic link|A special file that points to another file path
+Mount point|Directory where a filesystem is attached to the main directory tree
+>|Redirects stdout to a file and overwrites it
+>>|Redirects stdout to a file and appends to it
+2>|Redirects stderr
+pipe operator|Sends stdout of one command as stdin to another

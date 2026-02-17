@@ -38,3 +38,6 @@ Mount point|Directory where a filesystem is attached to the main directory tree
 >>|Redirects stdout to a file and appends to it
 2>|Redirects stderr
 pipe operator|Sends stdout of one command as stdin to another
+systemd service user|By default a systemd service runs as root;It runs as another user only if set in the [Service] section
+systemd service shell environment|systemd does not run services inside bash or sh;No login environment files like .bashrc are loaded;Do not assume PATH or other shell environment values exist
+cron job user|A job from crontab -e runs as the user who edited that crontab;sudo crontab -e edits root crontab so those jobs run as root

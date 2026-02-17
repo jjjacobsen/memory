@@ -147,3 +147,8 @@ start recording macro|q{register}|nvim macros
 stop recording macro|q|nvim macros
 play macro|@{register}|nvim macros
 repeat last macro|@@|nvim macros
+copy commit hash (on selected commit)|<C-o>|lazygit
+check Homebrew setup|brew doctor|brew
+list installed formulae that depend on package|brew uses --installed <package>|brew
+remove unused dependencies|brew autoremove|brew
+format file in place|prettier --write /path/to/file|prettier

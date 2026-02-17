@@ -121,6 +121,8 @@ show tab settings|<leader>ts|nvim normal mode
 show diagnostic|<leader>e|nvim normal mode
 clear all buffers|<leader>bc|nvim normal mode
 clear highlights|<leader>h|nvim normal mode
+open peek|<leader>po|nvim normal mode
+close peek|<leader>pc|nvim normal mode
 toggle hidden files|.|oil
 select whole line|V|nvim visual mode
 toggle comments|gc|nvim visual mode

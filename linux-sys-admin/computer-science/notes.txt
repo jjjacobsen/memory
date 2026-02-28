@@ -42,3 +42,7 @@ systemd service user|By default a systemd service runs as root;It runs as anothe
 systemd service shell environment|systemd does not run services inside bash or sh;No login environment files like .bashrc are loaded;Do not assume PATH or other shell environment values exist
 cron job user|A job from crontab -e runs as the user who edited that crontab;sudo crontab -e edits root crontab so those jobs run as root
 secure secrets file for server scripts|Create /etc/appname/secrets.env with content like VAR=abc123;Lock it down with chown root:root /etc/appname/secrets.env and chmod 600 /etc/appname/secrets.env so only root can read;Source it in the script with source /etc/appname/secrets.env
+cat /etc/passwd|Lists users from the system account database
+cat /etc/group|Lists groups from the system group database
+groups user|Lists the groups a user is in
+id user|Shows user account information including UID, GID, and groups

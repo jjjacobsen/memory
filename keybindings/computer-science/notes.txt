@@ -150,6 +150,8 @@ stop recording macro|q|nvim macros
 play macro|@{register}|nvim macros
 repeat last macro|@@|nvim macros
 copy commit hash (on selected commit)|<C-o>|lazygit
+open browser to create a pull request for the selected branch|o|lazygit local branches view
+open selected commit in browser|o|lazygit commits view
 check Homebrew setup|brew doctor|brew
 list installed formulae that depend on package|brew uses --installed <package>|brew
 remove unused dependencies|brew autoremove|brew

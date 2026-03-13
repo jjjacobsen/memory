@@ -37,6 +37,7 @@ Mount point|Directory where a filesystem is attached to the main directory tree
 >|Redirects stdout to a file and overwrites it
 >>|Redirects stdout to a file and appends to it
 2>|Redirects stderr
+tee|Writes data to stdout and to one or more files at the same time;Think of it like a T-junction in plumbing where one stream comes in and two streams go out
 pipe operator|Sends stdout of one command as stdin to another
 systemd service user|By default a systemd service runs as root;It runs as another user only if set in the [Service] section
 systemd service shell environment|systemd does not run services inside bash or sh;No login environment files like .bashrc are loaded;Do not assume PATH or other shell environment values exist

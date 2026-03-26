@@ -63,3 +63,7 @@ live-build|Tool used to create Debian Live systems and ISO images
 Debian Live system|Can boot and run from removable media or over the network without installing to disk;Filesystem is read only by default;Changes live in RAM and are lost at shutdown unless persistence is enabled
 shell quoting|Single quotes are literal and prevent expansion;Double quotes still allow variable expansion and command substitution
 install|Coreutils program to copy a file into its final installed state in one step;Think of it as copy + mkdir + chmod + chown rolled into one for software installation paths
+globs in quotes|Globs do not expand inside single quotes or double quotes
+mkdir -p /var/log/journal|Makes journal logs persistent across reboot;By default journal logs are not persistent;Journald has default disk usage limits so logs do not grow without bound
+journalctl --list-boots|Lists recorded boots;Journal logs are separated by boot
+journalctl -u <service> -b -1|Shows logs for a service from the previous boot

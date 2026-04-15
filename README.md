@@ -13,7 +13,7 @@ The repository contains note types organized as:
 - **`<note-type>/`**: Top-level directories for different types of flashcards
   - `fields.md`: Documentation describing each field/column in the notes
   - `cards.md`: Anki card templates and formatting instructions
-  - `<deck>/notes.txt`: Pipe-separated note data for a specific deck
+  - `<deck>/<note-type>_<deck>.txt`: Pipe-separated note data for a specific deck
 
 **Example structure:**
 ```
@@ -21,11 +21,11 @@ quotes/
 ├── fields.md        # Field descriptions (Author, Quote, etc.)
 ├── cards.md         # Card templates for quote formatting
 └── us-presidents/
-    └── notes.txt    # Presidential quotes data
+    └── quotes_us-presidents.txt    # Presidential quotes data
 ```
 
 ### File Format
-Notes are stored in `.txt` files with pipe (`|`) separated values. The format varies by note type and is documented in each `fields.md` file.
+Notes are stored in `.txt` files with pipe (`|`) separated values. Each deck file is named using the format `{note-type}_{deck}.txt`. The format varies by note type and is documented in each `fields.md` file.
 
 **Simple two-column format** (e.g., quotes):
 ```
@@ -42,7 +42,7 @@ Number|Name|Term|Party|State
 ### Adding New Notes
 1. Navigate to the appropriate note type directory.
 2. Review the `fields.md` file to understand the field structure.
-3. Open the `notes.txt` file in the relevant deck subdirectory.
+3. Open the `{note-type}_{deck}.txt` file in the relevant deck subdirectory.
 4. Add new lines following the established format:
    - Use pipe (`|`) as field separator
    - Maintain consistent column structure as defined in `fields.md`
@@ -54,13 +54,13 @@ Number|Name|Term|Party|State
    - `fields.md`: Description of each field/column
    - `cards.md`: Anki card templates and formatting instructions
 3. Create a deck subdirectory (e.g., `geography/`).
-4. Create `notes.txt` with your desired pipe-separated format.
+4. Create `<note-type>_<deck>.txt` with your desired pipe-separated format.
 
 ### Importing to Anki
 1. Review the `cards.md` file for the note type to understand card templates.
-2. Copy the `notes.txt` file you want to import.
+2. Copy the `{note-type}_{deck}.txt` file you want to import.
 3. Import via Anki's File > Import feature.
 4. Map fields appropriately during import using the `fields.md` documentation.
     - Make sure to disable `Allow HTML in fields`
-    - Avoid using `'` and `"`. The import gets weird
+    - Avoid using `<single-quote>` and `<double-quote>`. The import gets weird
 5. Apply card templates as described in `cards.md`.

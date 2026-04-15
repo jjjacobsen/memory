@@ -11,10 +11,12 @@ This note type has one card template: Concept -> Meaning.
 
 ### Back
 ```
-<div id="meaning">{{Meaning}}</div>
+<div id=meaning>{{Meaning}}</div>
 <script>
-const el = document.getElementById("meaning");
-el.innerHTML = el.textContent.replace(/\\n/g, "<br>").replace(/;\s*/g, "<br>");
+(() => {
+  const el = document.getElementById(`meaning`);
+  el.innerHTML = el.textContent.replace(/\\n/g, `<br>`).replace(/;\s*/g, `<br>`);
+})();
 </script>
 ```
 

@@ -64,3 +64,21 @@ Number|Name|Term|Party|State
     - Make sure to disable `Allow HTML in fields`
     - Avoid using `<single-quote>` and `<double-quote>`. The import gets weird
 5. Apply card templates as described in `cards.md`.
+
+### Card Template Guidance
+
+- If a field needs visual line breaks but each imported note must stay on one line, use delimiters like `;` or `;;` in the text file and transform them in the card template
+- CSS only controls how existing whitespace is displayed. It cannot turn `;` or `;;` into line breaks
+- CSS like `white-space: pre-wrap` is useful only when the field already contains real newline characters
+- If you use `<script>` in Anki templates, wrap it in a function so variables do not leak across cards
+
+Example:
+
+```html
+<script>
+(() => {
+  const el = document.getElementById(`content`);
+  el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`);
+})();
+</script>
+```

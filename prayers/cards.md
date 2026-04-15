@@ -17,8 +17,10 @@ This note type has two card templates.
 
 <div class=prayer-text id=card1-prayer>{{Back}}</div>
 <script>
-const el = document.getElementById(`card1-prayer`);
-el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`);
+(() => {
+  const el = document.getElementById(`card1-prayer`);
+  el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`);
+})();
 </script>
 ```
 
@@ -28,8 +30,10 @@ el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`
 ```
 <div class=prayer-text id=card2-prayer>{{Back}}</div>
 <script>
-const el = document.getElementById(`card2-prayer`);
-el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`);
+(() => {
+  const el = document.getElementById(`card2-prayer`);
+  el.innerHTML = el.textContent.replace(/;;/g, `<br><br>`).replace(/;\s*/g, `<br>`);
+})();
 </script>
 ```
 

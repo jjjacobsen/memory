@@ -159,3 +159,14 @@ check Homebrew setup|brew doctor|brew
 list installed formulae that depend on package|brew uses --installed <package>|brew
 remove unused dependencies|brew autoremove|brew
 format file in place|prettier --write /path/to/file|prettier
+open service mode|alt-shift-semicolon|aerospace
+layout tiles horizontal vertical|alt-slash|aerospace
+layout accordion horizontal vertical|alt-comma|aerospace
+focus left, down, up, right|alt-h, alt-j, alt-k, alt-l|aerospace
+move left, down, up, right|alt-shift-h, alt-shift-j, alt-shift-k, alt-shift-l|aerospace
+resize smart -50|alt-minus|aerospace
+resize smart +50|alt-equal|aerospace
+reload-config and mode main|esc|aerospace service mode
+toggle between floating and tiling layout|f|aerospace service mode
+reset layout|r|aerospace service mode
+join with left, down, up, right and mode main|alt-shift-h, alt-shift-j, alt-shift-k, alt-shift-l|aerospace service mode

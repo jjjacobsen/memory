@@ -125,6 +125,7 @@ clear highlights|<leader>h|nvim normal mode
 open peek|<leader>po|nvim normal mode
 close peek|<leader>pc|nvim normal mode
 toggle hidden files|.|oil
+refresh oil buffer|<C-l>|oil
 select whole line|V|nvim visual mode
 paste without replacing clipboard|P|nvim visual mode
 toggle comments|gc|nvim visual mode

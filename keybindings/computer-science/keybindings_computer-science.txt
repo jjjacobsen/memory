@@ -172,3 +172,29 @@ reload-config and mode main|esc|aerospace service mode
 toggle between floating and tiling layout|f|aerospace service mode
 reset layout|r|aerospace service mode
 join with left, down, up, right and mode main|alt-shift-h, alt-shift-j, alt-shift-k, alt-shift-l|aerospace service mode
+go down one folder|J|aerc messages
+go up one folder|K|aerc messages
+go back or quit from the main screen|q|aerc messages
+archive email|a|aerc messages
+delete message|d|aerc messages
+mark message with confirmation|v|aerc messages
+mark multiple messages|V|aerc messages
+change folder to INBOX|c INBOX|aerc messages
+compose new email|C|aerc messages
+show keybindings|?|aerc messages
+move email to INBOX|:mv INBOX|aerc messages
+broad all-text search|F|aerc messages
+Gmail-style exact operator search|E|aerc messages
+toggle read or unread|u|aerc messages
+delete message|D|aerc messages
+forward message|f|aerc message view
+reply|rr|aerc message view
+reply and quote original message|rq|aerc message view
+reply to sender only|Rr|aerc message view
+reply to sender only and quote original message|Rq|aerc message view
+archive message|A|aerc message view
+show keybindings|?|aerc message view
+go to next field|<C-j>|aerc message view
+go to previous field|<C-k>|aerc message view
+open menu to choose what to do with composed message|q|aerc compose
+open menu to choose what to do with composed message|wq|aerc compose

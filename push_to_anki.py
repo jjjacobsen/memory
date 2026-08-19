@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
-"""Push the memory vault into the local Anki collection, then sync to AnkiWeb.
+"""Mirror the memory vault into the local Anki collection, then sync to AnkiWeb.
 
-Reads every <note-type>/<deck>/<note-type>_<deck>.txt file in this repo,
-adds any notes not already present in the local Anki collection, and syncs
-to AnkiWeb so the cards reach every device.
+The vault is the source of truth. This script:
+  - adds every note in the vault that is not already in Anki
+  - tags handled notes with a marker tag so their origin is visible
+  - deletes any handled note whose content no longer appears in the vault
+  - syncs the collection to AnkiWeb so cards reach every device
+
+Editing a note's text in the vault counts as add-new plus delete-old, so the
+replaced note starts a fresh review schedule. Removing a line from a vault
+file removes the corresponding card.
 
 Usage:
-  uv run push_to_anki.py          # add missing notes and sync
-  uv run push_to_anki.py --dry-run   # preview without changing anything
-  uv run push_to_anki.py --no-sync   # add notes locally, skip AnkiWeb sync
+  uv run push_to_anki.py                # mirror the vault and sync
+  uv run push_to_anki.py --dry-run      # preview every change, change nothing
+  uv run push_to_anki.py --no-sync      # mirror locally, skip AnkiWeb sync
 """
 
 import argparse
@@ -24,6 +30,9 @@ REPO = Path(__file__).parent
 COLLECTION_PATH = Path.home() / "Library/Application Support/Anki2/Jonah/collection.anki2"
 PREFS_PATH = Path.home() / "Library/Application Support/Anki2/prefs21.db"
 PROFILE_NAME = "Jonah"
+
+# notes created or adopted by this script carry this tag, deletions only remove tagged notes
+MANAGE_TAG = "memory-vault"
 
 # note-type directory -> (Anki model name, field order used in the vault files)
 NOTE_TYPES = {
@@ -43,15 +52,10 @@ DECK_MAP = {
     "us-presidents": "U.S. Presidents",
 }
 
-# the vault uses these placeholders because quote characters are avoided in its source files
-QUOTE_FIXES = {"<single-quote>": "'", "<double-quote>": '"'}
 
-
+# field text is inserted as HTML, match what Anki's importer stores: & < > escaped, quotes left raw
 def clean_field(text):
-    for placeholder, quote in QUOTE_FIXES.items():
-        text = text.replace(placeholder, quote)
-    # match what Anki's text importer stores: & < > escaped, quotes left raw
-    return html.escape(text, quote=False)
+    return html.escape(text.strip(), quote=False)
 
 
 def data_files(note_type_dir):
@@ -66,57 +70,72 @@ def deck_key_for(data_file, note_type_dir):
     return stem[len(prefix):]
 
 
-def existing_fields(col, model_name, field_names):
-    ids = col.find_notes(f'note:"{model_name}"', order=False)
-    existing = set()
-    for nid in ids:
-        note = col.get_note(nid)
-        # stored notes are keyed in the same order the vault files use, by field name
-        existing.add(tuple(note[name] for name in field_names))
-    return existing
+def vault_rows(note_type_dir, field_names):
+    # returns row-key -> deck name, so each note is added to its family deck
+    rows = {}
+    for data_file in data_files(note_type_dir):
+        deck_name = DECK_MAP[deck_key_for(data_file, note_type_dir)]
+        for line in data_file.read_text().splitlines():
+            if not line.strip():
+                continue
+            values = line.split("|")
+            if len(values) != len(field_names):
+                raise SystemExit(f"expected {len(field_names)} fields, got {len(values)} in {data_file}:\n{line}")
+            rows[tuple(clean_field(v) for v in values)] = deck_name
+    return rows
 
 
-def add_vault_notes(col, dry_run):
-    added = 0
-    skipped = 0
-    for note_type_dir, (model_name, field_names) in NOTE_TYPES.items():
-        model = col.models.by_name(model_name)
-        if model is None:
-            raise SystemExit(f"Anki model not found: {model_name}")
-        existing = existing_fields(col, model_name, field_names)
-        for data_file in data_files(note_type_dir):
-            deck_key = deck_key_for(data_file, note_type_dir)
-            deck_name = DECK_MAP.get(deck_key)
-            if deck_name is None:
-                raise SystemExit(f"no deck mapping for {data_file}: {deck_key}")
-            deck = col.decks.by_name(deck_name)
-            if deck is None:
-                if dry_run:
-                    print(f"would create deck: {deck_name}")
-                    continue
-                deck_id = col.decks.add_normal_deck_with_name(deck_name).id
-            else:
-                deck_id = deck["id"]
-            for line in data_file.read_text().splitlines():
-                if not line.strip():
-                    continue
-                values = line.split("|")
-                if len(values) != len(field_names):
-                    raise SystemExit(f"expected {len(field_names)} fields, got {len(values)} in {data_file}:\n{line}")
-                cleaned = [clean_field(v) for v in values]
-                if tuple(cleaned) in existing:
-                    skipped += 1
-                    continue
-                if dry_run:
-                    print(f"would add [{deck_name}] {model_name}: {cleaned[0][:60]}")
-                    continue
-                note = col.new_note(model)
-                for name, value in zip(field_names, cleaned):
-                    note[name] = value
-                col.add_note(note, deck_id)
-                existing.add(tuple(cleaned))
-                added += 1
-    return added, skipped
+def mirror_model(col, nt_dir, model_name, field_names, dry_run):
+    model = col.models.by_name(model_name)
+    if model is None:
+        raise SystemExit(f"Anki model not found: {model_name}")
+    rows = vault_rows(nt_dir, field_names)
+
+    existing = [col.get_note(i) for i in col.find_notes(f'note:"{model_name}"', order=False)]
+    present_content = {tuple(n[name] for name in field_names) for n in existing}
+
+    added = tagged = deleted = 0
+
+    # 1. add notes that are in the vault but not in Anki, in their family deck
+    for row, deck_name in sorted(rows.items()):
+        if row in present_content:
+            continue
+        if dry_run:
+            print(f"would add [{model_name}] {row[0][:60]}")
+            continue
+        deck = col.decks.by_name(deck_name)
+        deck_id = deck["id"] if deck else col.decks.add_normal_deck_with_name(deck_name).id
+        note = col.new_note(model)
+        for name, value in zip(field_names, row):
+            note[name] = value
+        note.add_tag(MANAGE_TAG)
+        col.add_note(note, deck_id)
+        added += 1
+        present_content.add(row)
+
+    # 2. tag existing notes that match the vault, so they are managed from now on
+    for n in existing:
+        if tuple(n[name] for name in field_names) in rows and MANAGE_TAG not in n.tags:
+            if dry_run:
+                print(f"would tag [{model_name}] {n[field_names[0]][:40]}")
+                tagged += 1
+                continue
+            n.add_tag(MANAGE_TAG)
+            col.update_note(n)
+            tagged += 1
+
+    # 3. delete notes this script manages whose content is no longer in the vault
+    for n in existing:
+        if MANAGE_TAG in n.tags and tuple(n[name] for name in field_names) not in rows:
+            if dry_run:
+                print(f"would delete [{model_name}] {n[field_names[0]][:60]}")
+                deleted += 1
+                continue
+            col.remove_notes([n.id])
+            deleted += 1
+
+    print(f"{model_name}: {added} added, {tagged} tagged, {deleted} deleted")
+    return added, tagged, deleted
 
 
 def do_sync(col):
@@ -128,8 +147,13 @@ def do_sync(col):
     hkey = profile.get("syncKey")
     if not hkey:
         raise SystemExit(f"no syncKey in Anki profile {PROFILE_NAME}, log in once from the Anki GUI")
-    result = col.sync_collection(SyncAuth(hkey=hkey), sync_media=True)
-    print(f"sync complete: {result.required}")
+    auth = SyncAuth(hkey=hkey)
+    result = col.sync_collection(auth, sync_media=True)
+    required = result.required
+    if required in (0, 1):  # NO_CHANGES, NORMAL_SYNC
+        print(f"sync complete: {result.required}")
+    else:
+        print(f"full sync requested ({result.required}), open Anki once to pick the direction")
 
 
 def main():
@@ -140,26 +164,20 @@ def main():
 
     col = Collection(str(COLLECTION_PATH))
     try:
-        added, skipped = add_vault_notes(col, args.dry_run)
-        summary = f"{added} added, {skipped} already present"
-        if args.dry_run:
-            summary = f"dry run: {summary} (nothing changed)"
-        print(summary)
-        if not args.dry_run and added:
-            print("collection saved")
+        for nt_dir, (model_name, field_names) in NOTE_TYPES.items():
+            mirror_model(col, nt_dir, model_name, field_names, args.dry_run)
+        col.save()
+        print("dry run, nothing changed" if args.dry_run else "apply complete")
     finally:
         col.close()
 
-    if args.dry_run:
+    if args.dry_run or args.no_sync:
         return
-    if args.no_sync:
-        return
-    if not args.dry_run:
-        col = Collection(str(COLLECTION_PATH))
-        try:
-            do_sync(col)
-        finally:
-            col.close()
+    col = Collection(str(COLLECTION_PATH))
+    try:
+        do_sync(col)
+    finally:
+        col.close()
 
 
 if __name__ == "__main__":

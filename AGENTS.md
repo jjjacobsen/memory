@@ -1,7 +1,6 @@
 # Instructions
 
-- Avoid using single or double quote characters (`'` or `"`)
-    - If quote character is necessary, use `<single-quote>` or `<double-quote>` instead
+- Quote characters are fine to use directly in note text. The automated import (push_to_anki.py) handles them safely, so the old `<single-quote>` and `<double-quote>` placeholder convention is retired
 - When adding new notes, make sure to read the appropriate `fields.md` and `cards.md` for that note type (it goes on directory structure)
 
 ---

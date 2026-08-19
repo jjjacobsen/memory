@@ -25,17 +25,15 @@ quotes/
 ```
 
 ### File Format
-Notes are stored in `.txt` files with pipe (`|`) separated values. Each deck file is named using the format `{note-type}_{deck}.txt`. The format varies by note type and is documented in each `fields.md` file.
+Notes are stored in `.txt` files with pipe (`|`) separated values. Each deck file is named using the format `{note-type}_{deck}.txt`. The format varies by note type and is documented in each `fields.md` file. The files have no header row, each line is one note.
 
 **Simple two-column format** (e.g., quotes):
 ```
-Author|Quote
 Thomas Jefferson|The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants.
 ```
 
 **Multi-column format** (e.g., detailed info):
 ```
-Number|Name|Term|Party|State
 1|George Washington|1789 - 1797|Unaffiliated|Virginia
 ```
 
@@ -57,13 +55,20 @@ Number|Name|Term|Party|State
 4. Create `<note-type>_<deck>.txt` with your desired pipe-separated format.
 
 ### Importing to Anki
-1. Review the `cards.md` file for the note type to understand card templates.
-2. Copy the `{note-type}_{deck}.txt` file you want to import.
-3. Import via Anki's File > Import feature.
-4. Map fields appropriately during import using the `fields.md` documentation.
-    - Make sure to disable `Allow HTML in fields`
-    - Avoid using `<single-quote>` and `<double-quote>`. The import gets weird
-5. Apply card templates as described in `cards.md`.
+Use the automated import script to pull in new notes, import them into the local Anki collection, and sync to AnkiWeb:
+
+- `mise run anki-push` mirrors the vault into the local Anki collection and
+  syncs to AnkiWeb
+- `mise run anki-preview` gives a dry run showing what would be added and
+  deleted, without changing anything
+- The script also runs directly with `uv run push_to_anki.py`
+
+Notes that no longer appear in the vault are deleted from Anki on the next
+push, and edited notes are replaced, so the vault is the single source of
+truth. Cards pushed this way carry the `memory-vault` tag. Quote characters
+are fine to use directly in note text, the import script handles them safely.
+Review the `cards.md` file for the note type to understand card templates,
+they are applied as described there.
 
 ### Card Template Guidance
 

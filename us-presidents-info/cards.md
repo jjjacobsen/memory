@@ -1,142 +1,201 @@
-# U.S. Presidents - Info - Card Templates
+# U.S. Presidents - Info - Improved Card Templates
 
-This note type has seven card templates that test different aspects of presidential information.
+Seven card templates that test number, name, term, party, portrait, and state, one question type each
 
-## Card Templates
+## 1. Name to Number
 
-### 1. Name to Number
+### Front
 
-**Front:**
+```html
+<div class=question>What number president was {{Name}}</div>
 ```
-What number president was {{Name}}
-```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Number}}
+<div class=answer>{{Number}}</div>
 ```
 
-### 2. Number to Name
+## 2. Number to Name
 
-**Front:**
-```
-Who was president {{Number}}?
+### Front
+
+```html
+<div class=question>Who was president {{Number}}?</div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Name}}
+<div class=name>{{Name}}</div>
 ```
 
-### 3. Name to Term
+## 3. Name to Term
 
-**Front:**
-```
-What were the years {{Name}} was in office?
+### Front
+
+```html
+<div class=question>What were the years {{Name}} was in office?</div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Term}}
+<div class=answer>{{Term}}</div>
 ```
 
-### 4. Term to Name
+## 4. Term to Name
 
-**Front:**
-```
-Who was president from {{Term}}?
+### Front
+
+```html
+<div class=question>Who was president from {{Term}}?</div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Name}}
+<div class=name>{{Name}}</div>
 ```
 
-### 5. Name to Party
+## 5. Name to Party
 
-**Front:**
-```
-What political party did {{Name}} belong to?
+### Front
+
+```html
+<div class=question>What political party did {{Name}} belong to?</div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Party}}
+<div class=answer>{{Party}}</div>
 ```
 
-### 6. Portrait to Name
+## 6. Portrait to Name
 
-**Front:**
-```
-<p>Who is this?</p>
+### Front
 
-<div style="text-align: center;">
-  {{Portrait}}
+```html
+<div class=question>Who is this?</div>
+
+<div class=portrait>
+{{Portrait}}
 </div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{Name}}
+<div class=name>{{Name}}</div>
 ```
 
-### 7. Name to State
+## 7. Name to State
 
-**Front:**
-```
-What state did {{Name}} represent?
+### Front
+
+```html
+<div class=question>What state did {{Name}} represent?</div>
 ```
 
-**Back:**
-```
+### Back
+
+```html
 {{FrontSide}}
 
 <hr id=answer>
 
-{{State}}
+<div class=answer>{{State}}</div>
 ```
 
-## How It Works
+## Styling
 
-- Each card template tests a different piece of presidential information
-- All cards follow the same basic format: question on front, answer after separator on back
-- The portrait card includes HTML styling to center the image
-- Cards can be selectively enabled/disabled in Anki based on study preferences
+```css
+.card {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1em;
+  color: #1f2328;
+  background-color: #ffffff;
+}
 
-## Examples
+.card.nightMode,
+.nightMode .card {
+  color: #e6e6e6;
+  background-color: #1e1e1e;
+}
 
-**Name to Number:**
-- Front: "What number president was Abraham Lincoln"
-- Back: "16"
+hr#answer {
+  width: 60%;
+  max-width: 480px;
+  height: 2px;
+  margin: 1.2em auto;
+  border: none;
+  background: linear-gradient(to right, rgba(79, 111, 159, 0), #4f6f9f, rgba(79, 111, 159, 0));
+}
 
-**Portrait to Name:**
-- Front: Shows centered portrait image with "Who is this?"
-- Back: "George Washington"
+.card.nightMode hr#answer,
+.nightMode .card hr#answer {
+  background: linear-gradient(to right, rgba(122, 151, 191, 0), #7a97bf, rgba(122, 151, 191, 0));
+}
 
-**Term to Name:**
-- Front: "Who was president from 1933-1945?"
-- Back: "Franklin D. Roosevelt" 
+.question {
+  color: #57606a;
+}
+
+.card.nightMode .question,
+.nightMode .card .question {
+  color: #9aa4ae;
+}
+
+.answer {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.portrait img {
+  max-width: 220px;
+  max-height: 300px;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+```
+
+## Notes
+
+- All seven templates are preserved exactly as before, only the presentation changed
+- Name answers render large and bold, numeric and factual answers render medium and bold
+- The portrait sits alone on its own line so the image field renders as an image, with a subtle frame
+- Questions share a muted tone so each answer stands out clearly
+- Cards can be enabled or disabled independently in Anki

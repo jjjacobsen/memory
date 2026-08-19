@@ -42,4 +42,4 @@
 43|George W. Bush|2001 - 2009|Republican|Texas
 44|Barack Obama|2009 - 2017|Democratic|Illinois
 45 and 47|Donald Trump|2017 - 2021 and Incumbent|Republican|New York
-46|Joe Biden|2021 - 2025|Democratic|Delaware 
+46|Joe Biden|2021 - 2025|Democratic|Delaware

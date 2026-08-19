@@ -1,0 +1,3 @@
+[tasks]
+anki-push = "uv run push_to_anki.py"
+anki-preview = "uv run push_to_anki.py --dry-run"

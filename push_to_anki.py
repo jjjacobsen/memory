@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Mirror the memory vault into the local Anki collection, then sync to AnkiWeb.
+"""Sync from AnkiWeb, mirror the memory vault locally, then sync back.
 
 The vault is the source of truth. This script:
+  - syncs the local collection with AnkiWeb before changing notes
   - adds every note in the vault that is not already in Anki
   - tags handled notes with a marker tag so their origin is visible
   - deletes any handled note whose content no longer appears in the vault
-  - syncs the collection to AnkiWeb so cards reach every device
+  - syncs again so the final collection reaches every device
 
 Editing a note's text in the vault counts as add-new plus delete-old, so the
 replaced note starts a fresh review schedule. Removing a line from a vault
@@ -21,6 +22,8 @@ import argparse
 import html
 import pickle
 import sqlite3
+from contextlib import redirect_stdout
+from io import StringIO
 from pathlib import Path
 
 from anki.collection import Collection
@@ -138,7 +141,7 @@ def mirror_model(col, nt_dir, model_name, field_names, dry_run):
     return added, tagged, deleted
 
 
-def do_sync(col):
+def do_sync(phase):
     db = sqlite3.connect(PREFS_PATH)
     row = db.execute("select data from profiles where name = ?", (PROFILE_NAME,)).fetchone()
     if row is None:
@@ -148,12 +151,19 @@ def do_sync(col):
     if not hkey:
         raise SystemExit(f"no syncKey in Anki profile {PROFILE_NAME}, log in once from the Anki GUI")
     auth = SyncAuth(hkey=hkey)
-    result = col.sync_collection(auth, sync_media=True)
-    required = result.required
+
+    col = Collection(str(COLLECTION_PATH))
+    try:
+        with redirect_stdout(StringIO()):
+            required = col.sync_collection(auth, sync_media=True).required
+    finally:
+        col.close()
+
     if required in (0, 1):  # NO_CHANGES, NORMAL_SYNC
-        print(f"sync complete: {result.required}")
-    else:
-        print(f"full sync requested ({result.required}), open Anki once to pick the direction")
+        print(f"{phase} complete: {required}")
+        return True
+    print(f"{phase} requires a full sync ({required}), open Anki once to pick the direction")
+    return False
 
 
 def main():
@@ -161,6 +171,10 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="preview changes without modifying anything")
     parser.add_argument("--no-sync", action="store_true", help="skip the AnkiWeb sync step")
     args = parser.parse_args()
+
+    if not args.dry_run and not args.no_sync:
+        if not do_sync("pre-sync"):
+            return
 
     col = Collection(str(COLLECTION_PATH))
     try:
@@ -172,11 +186,7 @@ def main():
 
     if args.dry_run or args.no_sync:
         return
-    col = Collection(str(COLLECTION_PATH))
-    try:
-        do_sync(col)
-    finally:
-        col.close()
+    do_sync("post-sync")
 
 
 if __name__ == "__main__":

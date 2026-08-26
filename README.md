@@ -57,8 +57,8 @@ Thomas Jefferson|The tree of liberty must be refreshed from time to time with th
 ### Importing to Anki
 Use the automated import script to pull in new notes, import them into the local Anki collection, and sync to AnkiWeb:
 
-- `mise run anki-push` mirrors the vault into the local Anki collection and
-  syncs to AnkiWeb
+- `mise run anki-push` first syncs from AnkiWeb, mirrors the vault into the
+  local Anki collection, then syncs the final collection back to AnkiWeb
 - `mise run anki-preview` gives a dry run showing what would be added and
   deleted, without changing anything
 - The script also runs directly with `uv run push_to_anki.py`

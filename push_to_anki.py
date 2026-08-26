@@ -166,7 +166,6 @@ def main():
     try:
         for nt_dir, (model_name, field_names) in NOTE_TYPES.items():
             mirror_model(col, nt_dir, model_name, field_names, args.dry_run)
-        col.save()
         print("dry run, nothing changed" if args.dry_run else "apply complete")
     finally:
         col.close()

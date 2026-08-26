@@ -68,3 +68,14 @@ mkdir -p /var/log/journal|Makes journal logs persistent across reboot;By default
 journalctl --list-boots|Lists recorded boots;Journal logs are separated by boot
 journalctl -u <service> -b -1|Shows logs for a service from the previous boot
 shell conditional -z vs -n|-z returns true when the string length is zero;-n returns true when the string length is non-zero
+SSH tunnel|Carries traffic for another network connection through an encrypted SSH connection
+SSH local port forwarding|Makes a port on the SSH client forward traffic through SSH to a host and port reachable from the SSH server
+ssh -L syntax|ssh -L [local_address:]local_port:destination_host:destination_port ssh_server
+ssh -N|Opens the SSH connection without running a remote command;Useful when the connection exists only for port forwarding
+ssh -N -L 8085:localhost:8085 pi5|Listens on port 8085 on the local computer and forwards each connection through SSH to pi5;From pi5, the connection then goes to localhost port 8085
+localhost in an ssh -L destination|Means localhost from the SSH server's point of view, not from the SSH client's point of view
+Traffic path for ssh -N -L 8085:localhost:8085 pi5|Local app → local port 8085 → encrypted SSH connection → pi5 SSH server → pi5 localhost port 8085
+Using ssh -N -L 8085:localhost:8085 pi5|After starting the tunnel, connect to localhost:8085 on the local computer to reach the service bound to localhost:8085 on pi5
+Default access to an SSH local forward|The local listening port is normally available only through the SSH client's loopback interface, so other computers cannot connect to it
+Lifetime of an SSH tunnel running in the foreground|The tunnel remains available while the ssh process runs;Press Ctrl-C in its terminal to close the connection and stop the tunnel
+Local port already in use during SSH forwarding|SSH cannot listen on that local port;Choose a different local port, such as -L 8086:localhost:8085, while the destination port stays unchanged

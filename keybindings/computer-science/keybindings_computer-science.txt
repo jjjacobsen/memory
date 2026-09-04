@@ -45,6 +45,7 @@ insert at end of line|A|nvim normal mode
 insert a line below the cursor|o|nvim normal mode
 insert a line above the cursor|O|nvim normal mode
 jump from one window to another|<C-w><C-w>|nvim normal mode
+open link in browser|gx|nvim normal mode
 prefix to yank to system clipboard|"+|nvim normal mode
 yank line contents|Y|nvim normal mode
 yank from cursor to end of line|U|nvim normal mode

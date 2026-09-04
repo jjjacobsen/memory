@@ -3,5 +3,5 @@ name = "memory"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
-    "anki==25.9.5",
+    "anki==26.8.1",
 ]

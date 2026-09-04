@@ -30,9 +30,10 @@ from anki.collection import Collection
 from anki.sync import SyncAuth
 
 REPO = Path(__file__).parent
-COLLECTION_PATH = Path.home() / "Library/Application Support/Anki2/Jonah/collection.anki2"
-PREFS_PATH = Path.home() / "Library/Application Support/Anki2/prefs21.db"
-PROFILE_NAME = "Jonah"
+ANKI_DATA = Path.home() / ".local/share/Anki2"
+COLLECTION_PATH = ANKI_DATA / "User 1/collection.anki2"
+PREFS_PATH = ANKI_DATA / "prefs21.db"
+PROFILE_NAME = "User 1"
 
 # notes created or adopted by this script carry this tag, deletions only remove tagged notes
 MANAGE_TAG = "memory-vault"

@@ -9,7 +9,7 @@ vault .txt files --(push_to_anki.py)--> local collection --(sync)--> AnkiWeb
 ```
 
 1. `push_to_anki.py` opens the local Anki collection directly with the `anki`
-   Python library (same version as the installed Anki app, currently 25.9.5)
+   Python library (same version as the installed Anki app, currently 26.8.1)
 2. It reads every `<note-type>/<deck>/<note-type>_<deck>.txt` file
 3. It mirrors the vault into the collection: adds new notes, replaces edited
    ones, and deletes cards whose lines are gone from the vault
@@ -45,10 +45,11 @@ Always run `mise run anki-preview` first to see what would be deleted.
 
 ## Configuration
 
-Hardcoded at the top of `push_to_anki.py`:
+Hardcoded at the top of `push_to_anki.py` for the Omarchy/Linux installation:
 
-- `COLLECTION_PATH` the user profile's collection.anki2
-- `PREFS_PATH` and `PROFILE_NAME` where the AnkiWeb `syncKey` lives
+- `ANKI_DATA` is `~/.local/share/Anki2`
+- `COLLECTION_PATH` is the `User 1` profile's `collection.anki2`
+- `PREFS_PATH` and `PROFILE_NAME` locate the `User 1` AnkiWeb `syncKey`
 - `NOTE_TYPES` maps each note-type directory to its Anki model name and the
   field order used in the vault files
 - `DECK_MAP` maps each deck directory name to its Anki deck name
@@ -77,6 +78,8 @@ repo documents what runs in Anki. When templates change, update both.
 
 - The `anki` pip package version must match the installed Anki app version so
   the collection schema stays compatible (no upgrade, no downgrade)
+- Close the Anki desktop app before running a preview or push because both
+  programs open the same collection database
 - The sync login is reused from the desktop app, no password is needed and
   nothing is stored in this repo
 - First sync after a long gap may ask AnkiWeb to select full upload or

@@ -195,8 +195,10 @@ reply to sender only|Rr|aerc message view
 reply to sender only and quote original message|Rq|aerc message view
 archive message|A|aerc message view
 show keybindings|?|aerc message view
-go to next field|<C-j>|aerc message view
-go to previous field|<C-k>|aerc message view
+view the next MIME part|<C-j>|aerc message view
+view the previous MIME part|<C-k>|aerc message view
+focus the next header field or message body|<C-j>|aerc compose
+focus the previous header field or message body|<C-k>|aerc compose
 open menu to choose what to do with composed message|q|aerc compose
 open menu to choose what to do with composed message|wq|aerc compose
 switch to Windows mode|Fn+N|Lofree Flow84
@@ -206,3 +208,13 @@ open Obsidian scratch note|<leader>.|nvim normal mode
 open clipboard history|Super+Ctrl+V|Omarchy
 choose and open a link|<C-l>, <Tab>, <Enter>|aerc message view
 choose and copy a link|<C-y>, <Tab>, <Enter>|aerc message view
+scroll five times faster|Alt+mouse wheel|pi fullscreen mode
+discard an email while composing|<C-x> abort <Enter>|aerc compose
+focus the next header field or message body|<C-Down>|aerc compose
+focus the previous header field or message body|<C-Up>|aerc compose
+focus the next header field|<Tab>|aerc compose header fields
+focus the previous header field|<Backtab>|aerc compose header fields
+switch to the next sending account|<A-n>|aerc compose header fields
+switch to the next sending account|<C-Right>|aerc compose header fields
+switch to the previous sending account|<A-p>|aerc compose header fields
+switch to the previous sending account|<C-Left>|aerc compose header fields

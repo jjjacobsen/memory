@@ -1,0 +1,1 @@
+Which command updates all globally installed skills with the skills CLI?|npx skills update -g

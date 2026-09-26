@@ -218,3 +218,6 @@ switch to the next sending account|<A-n>|aerc compose header fields
 switch to the next sending account|<C-Right>|aerc compose header fields
 switch to the previous sending account|<A-p>|aerc compose header fields
 switch to the previous sending account|<C-Left>|aerc compose header fields
+select tab by number (1–8)|Alt+1..8|Ghostty on Linux
+select the last tab|Alt+9|Ghostty on Linux
+reload configuration without closing tabs|Ctrl+Shift+,|Ghostty on Linux
